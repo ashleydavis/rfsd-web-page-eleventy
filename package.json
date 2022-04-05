@@ -1,0 +1,11 @@
+{
+  "name": "web-page-eleventy",
+  "description": "The web page for Rapid Fullstack Development",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --input=./src --output=dist",
+    "build": "npx @11ty/eleventy --input=./src --output=dist"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
