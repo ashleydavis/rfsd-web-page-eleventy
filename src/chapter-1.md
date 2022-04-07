@@ -1,3 +1,6 @@
+---
+layout: layouts/main.html
+---
 # 1 Bootstrapping Rapid Development	
 
 ## Gearing your process for a rapid pace
