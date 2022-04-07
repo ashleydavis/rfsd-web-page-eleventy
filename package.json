@@ -4,7 +4,7 @@
     "scripts": {
         "start": "npx @11ty/eleventy --serve",
         "build": "npx @11ty/eleventy",
-        "build-css": "tailwind build src/styles.css -o src/assets/css/styles.css"
+        "build-css": "tailwind build src/tailwind.css -o src/assets/css/tailwind.css"
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
