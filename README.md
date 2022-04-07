@@ -21,3 +21,9 @@ npm start
 ```bash
 npm run build
 ```
+
+## Rebuild css
+
+```bash
+npm run build-css
+```

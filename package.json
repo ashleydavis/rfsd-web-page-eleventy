@@ -3,9 +3,11 @@
     "description": "The web page for Rapid Fullstack Development",
     "scripts": {
         "start": "npx @11ty/eleventy --serve",
-        "build": "npx @11ty/eleventy"
+        "build": "npx @11ty/eleventy",
+        "build-css": "tailwind build src/styles.css -o src/assets/css/styles.css"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^1.0.0"
+        "@11ty/eleventy": "^1.0.0",
+        "tailwindcss": "2.2.16"
     }
 }
