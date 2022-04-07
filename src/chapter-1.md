@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Rapid development is a trade off between value and delivery cost
 
 ## 1.1.1 Minimize wasted time
@@ -78,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Iterations: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Iterations of work are crucial to software development
 
 ##### TODO
@@ -88,7 +88,7 @@ Iterations: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 
 Pomodoros: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: The Pomodoro technique gives natural breaks for thinking and planning
 
 FLOW: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -100,7 +100,7 @@ FLOW: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 
 Rule number 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: The process of taking your code from working state to working state
 
 ##### TODO
@@ -118,7 +118,7 @@ Working code is at the heart of it. Lorem ipsum dolor sit amet, consectetur adip
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: The coding cycle is the loop that drives our development process
 
 ## 1.1 Testing is not optional
@@ -132,14 +132,14 @@ Manual testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: The coding cycle rolled out over many iterations
 
 ## 1.1 Many iterations of coding
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Working and reliable code builds up over many iterations
 
 ##### TODO
@@ -149,7 +149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Version control: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Working code is captured in version control
 
 ##### TODO
@@ -159,7 +159,7 @@ Version control: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 Working state to working state. Minimize the distance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Minimize the distance between working states
 
 ##### TODO
@@ -169,7 +169,7 @@ Working state to working state. Minimize the distance. Lorem ipsum dolor sit ame
 
 Automated testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: Automated testing removes time consuming and tedious manual testing
 
 ##### TODO
@@ -183,7 +183,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: JavaScript is the only language that is truly fullstack
 
 ## 1.1.1 Why TypeScript?
@@ -206,7 +206,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt_text](images/placeholder.png "image_tooltip")
+![alt_text](assets/images/placeholder.png "image_tooltip")
 ### Figure 1.1: An overview of the example application, Photosphere
 
 # 1.1 What’s the fastest way to write code? The answer
