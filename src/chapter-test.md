@@ -1,3 +1,6 @@
+---
+layout: layouts/main.html
+---
 # 1 Title	
 
 ## Subtitle
