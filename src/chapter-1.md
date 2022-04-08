@@ -1,5 +1,5 @@
 ---
-layout: layouts/main.html
+layout: layouts/chapter.html
 ---
 # 1 Bootstrapping Rapid Development	
 

@@ -1,3 +1,0 @@
-# The index!
-
-Hello world!
