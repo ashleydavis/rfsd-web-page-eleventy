@@ -1,7 +1,7 @@
 
 body {
     color: #222;
-    font: normal 16px/24px "Crimson", Georgia, serif;
+    font-family: Crimson, Georgia, serif;
     line-height: 24px;
     font-size: 16px;
 }

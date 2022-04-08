@@ -1,0 +1,17 @@
+
+body {
+    color: #222;
+    font-family: Crimson, Georgia, serif;
+    background-color: #faf7eb;
+}
+
+.subscribe-btn {
+    background-color: white;
+    border: 1px solid #151515;
+    box-shadow: 4px 4px 0 0 #151515;
+    padding: 14.4px 22.5px;
+    font-family: Crimson, Georgia, serif;
+    font-size: 20px;
+}
+
+
