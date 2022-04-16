@@ -6,6 +6,12 @@ body {
     font-size: 16px;
 }
 
+img {
+    max-width: 500px;
+    border: 1px lightgray solid;
+    padding: 20px;
+}
+
 h1:first-of-type {
     margin: 0;
     margin-bottom: 5px;
@@ -40,32 +46,34 @@ h2 {
 h3 {
     margin: 0;
     padding: 0;
-    margin-top: .2rem;
-    margin-bottom: .1rem;
-    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
     font-size: 15px;
+    color: gray;
+    font-style: italic;
 }
 
 blockquote {
-    margin: 0;
-    padding: 20px;
+    margin: 5px;
+    padding: 20px;    
     background-color: #e8e8e8;
-    border-radius: 5px;
 }
 
-blockquote > h5 {
+h5 {
     margin: 0;
+    padding: 0;
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 1.25rem;
+    padding-bottom: 20px;
 }
 
-blockquote > h6 {
+h6 {
     margin: 0;
+    padding: 0;
     font-family: inherit;
     font-weight: normal;
-    margin-bottom: 1rem;
     font-size: 16px;
+    padding-bottom: 5px;
 }
 
 /* Code */
