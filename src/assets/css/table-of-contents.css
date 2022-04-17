@@ -1,5 +1,7 @@
 
 body {
+    padding: 0;
+    margin: 0;
     color: #222;
     font-family: Crimson, Georgia, serif;
     line-height: 24px;
@@ -16,4 +18,5 @@ h1 {
     font-weight: 500;
     margin-top: 40px;
     font-size: 30px;
+    line-height: 40px;
 }
