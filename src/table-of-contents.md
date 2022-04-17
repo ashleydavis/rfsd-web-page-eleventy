@@ -4,42 +4,64 @@ layout: layouts/table-of-contents.html
 
 # Table of contents
 
-## Frontmatter
+Rapid Fullstack Develpment is a book that guides you through theory, techniques, tools and process to be an efficient and effective developer using JavaScript or TypeScript across your entire stack.
 
-## [1. Bootstrapping Rapid Development](/chapter-1) 
+NOTE: This outline will change during development of the book.
 
-[Read chapter 1 for free online.](/chapter-1) 
+# Frontmatter
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# 1. Bootstrapping Rapid Development
 
-## 2. Backend development
+[Free to read online](/chapter-1) 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Learn the theory and philosophy of rapid development. 
 
-## 3. Frontend development
+What it is? Why we need it? And, how it can help you be a better developer.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# 2. Backend
 
-## 4. Scaling development
+First up, we build the backend for the [Photosphere example application](/photosphere-example-application). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+We start coding from nothing, and then code and test Photosphere's Node.js REST API. 
 
-## 5. Testing
+Learn techniques for rapid iterations of coding with fast feedback, refactoring to let an elegent design emerge by itself and testing to make sure our code works.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# 3. Frontend
 
-## 6. Debugging
+Next we build the frontend for Photosphere. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Again we'll start with nothing and construct a browser-based user interface from the ground up.
 
-## 7. Beyond fullstack
+Learn how to connect to the backend and get fast feedback to rapidly prototype your user interface.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# 4. Scaling
 
-## 8. Photosphere walkthrough
+Now we scale up our development process to handle a backend with multiple services. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+We'll add some microservices to Photosphere, but the techniques presented in this chapter aren't just for microservices. 
 
-## 9. Learnig how to learn
+Learn how to use Docker Compose to create a convenient setup for fast development and testing of our fullstack application, including the integration of a database (or other services).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# 5. Testing
+
+Learn the important techniques for fast and effective testing to keep your code working through repeated change and evolution. With real examples from the Photosphere application.
+
+# 6. Debugging
+
+Learn strategy and techniques to mercilessly hunting bugs with real examples from the Photosphere application.
+
+# 7. Beyond fullstack
+
+It's time to go beyond fullstack! 
+
+We'll extend our development process to build desktop and mobile applications for Photosphere.
+
+# 8. Photosphere walkthrough
+
+Let's revist the tools, technique and development process we have learned while taking a tour of the complete Photosphere application.
+
+# 9. Learning how to learn
+
+We'll wrap up the book with a discussion on how you can take your own learning as a developer to the next level. 
+
+Learn strategies to be better at learning.
