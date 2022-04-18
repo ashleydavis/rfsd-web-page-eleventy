@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     color: #222;
@@ -6,47 +10,52 @@ body {
     font-size: 16px;
 }
 
+h1:first-of-type {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 44px;
+}
+
+p {
+    padding-bottom: 2px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
 img {
     max-width: 500px;
     border: 1px lightgray solid;
     padding: 20px;
 }
 
-h1:first-of-type {
-    margin: 0;
-    margin-bottom: 5px;
-    font: 48px/48px "Crimson", Georgia, serif;
-    padding: 110px 0 18px 0;
-    font-size: 44px;
-}
-
 h2:first-of-type {
-    margin: 0;
-    margin-left: 35px;
-    margin-bottom: 50px;
+    padding-left: 35px;
+    padding-bottom: 50px;
     font: italic 24px/36px "Crimson", Georgia, serif;
     color: #5985a6;    
 }
 
 h1 {
     font-weight: bold;
-    margin: 0;
-    margin-top: 69px;
-    margin-bottom: 30px;
+    padding-top: 69px;
+    padding-bottom: 30px;
 }
 
 h2 {
     font-weight: normal;
-    margin: 0;
-    margin-top: 71px;
+    padding-top: 71px;
     padding-bottom: 1px;
 }
 
 /* Code caption */
 h3 {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
     font-weight: normal;
     font-size: 15px;
     color: gray;
@@ -60,16 +69,12 @@ blockquote {
 }
 
 h5 {
-    margin: 0;
-    padding: 0;
     font-weight: bold;
     font-size: 16px;
     padding-bottom: 20px;
 }
 
 h6 {
-    margin: 0;
-    padding: 0;
     font-family: inherit;
     font-weight: normal;
     font-size: 16px;

@@ -19,7 +19,7 @@ This is a book about rapid development. But it isn’t just about being a fast _
 
 As a _software developer_ you must be able to produce _working_ and _valuable_ code. 
 
-Otherwise, there's no point being able to write code quickly. The real trick to moving quickly is to focus on the aspects of development that help you build your code the _right _way and indeed to make sure that it is the _right _code. 
+Otherwise, there's no point being able to write code quickly. The real trick to moving quickly is to focus on the aspects of development that help you build your code the _right_ way and indeed to make sure that it is the _right_ code. 
 
 When we create _broken_ code (it’s so easy to do) we stifle our future progress. 
 

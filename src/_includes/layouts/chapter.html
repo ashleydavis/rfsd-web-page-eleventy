@@ -26,8 +26,17 @@
 
 </head>
 <body>
-    <div class="container mx-auto max-w-3xl">
-        {{content}}
+
+    <nav class="fixed w-96 h-full hidden lg:block bg-red-100">
+        Side
+    </nav>
+    <nav class="lg:hidden text-center bg-red-100">
+        Header
+    </nav>
+    <div class="pl-4 lg:pl-8 lg:ml-96">
+        <div class="max-w-3xl">
+            {{content}}
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/components/prism-core.min.js" integrity="sha512-LCKPTo0gtJ74zCNMbWw04ltmujpzSR4oW+fgN+Y1YclhM5ZrHCZQAJE4quEodcI/G122sRhSGU2BsSRUZ2Gu3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
