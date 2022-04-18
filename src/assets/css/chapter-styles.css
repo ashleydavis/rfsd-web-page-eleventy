@@ -11,17 +11,24 @@ body {
 }
 
 h1:first-of-type {
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 109px;
+    padding-bottom: 31px;
     font-size: 44px;
 }
 
 p {
-    padding-bottom: 2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+ul {
+    padding-left: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 h1 {
-    padding-top: 20px;
+    padding-top: 69px;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 30px;
@@ -35,22 +42,16 @@ img {
 }
 
 h2:first-of-type {
-    padding-left: 35px;
-    padding-bottom: 50px;
+    padding-top: 29px;
+    padding-bottom: 31px;
     font: italic 24px/36px "Crimson", Georgia, serif;
     color: #5985a6;    
 }
 
-h1 {
-    font-weight: bold;
-    padding-top: 69px;
-    padding-bottom: 30px;
-}
-
 h2 {
     font-weight: normal;
-    padding-top: 71px;
-    padding-bottom: 1px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 /* Code caption */
