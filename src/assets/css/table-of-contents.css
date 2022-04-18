@@ -1,7 +1,9 @@
-
-body {
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
     color: #222;
     font-family: Crimson, Georgia, serif;
     line-height: 24px;
@@ -9,14 +11,19 @@ body {
 }
 
 h1:first-of-type {
-    margin-bottom: 30px;
-    padding: 110px 0 18px 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
     font-size: 44px;
 }
 
+p {
+    padding-bottom: 2px;
+}
+
 h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-weight: 500;
-    margin-top: 40px;
     font-size: 30px;
     line-height: 40px;
 }
