@@ -12,6 +12,7 @@ body {
     padding: 14.4px 22.5px;
     font-family: Crimson, Georgia, serif;
     font-size: 20px;
+    text-decoration: none;
 }
 
 #mce-EMAIL {
