@@ -35,6 +35,10 @@ body {
     text-decoration: none;
 }
 
+.subscribe-btn:visited {
+    color: inherit;
+}
+
 #mce-EMAIL {
     word-break: break-word;
     background-color: white !important;
