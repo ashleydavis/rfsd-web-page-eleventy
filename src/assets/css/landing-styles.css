@@ -1,8 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     color: #222;
     font-family: Crimson, Georgia, serif;
-    background-color: #faf7eb;
+    background-color: #2C313C;
+}
+
+.heading {
+    color: #111;
+}
+
+.all {
+    background-color: white;
+}
+
+.main, #subscribe {
+    background-color: #F2F0ED;
+}
+
+#mc_embed_signup {
+    width: 350px;
 }
 
 .subscribe-btn, #mc-embedded-subscribe {
