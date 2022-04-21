@@ -5,8 +5,8 @@
 
 body {
     color: #222;
-    font-family: #dc143c, Georgia, serif;
-    background-color: #2881FF;
+    font-family: Crimson, Georgia, serif;
+    background-color: #E6E2DC;
 }
 
 .heading {
@@ -15,10 +15,12 @@ body {
 
 .all {
     background-color: white;
+    border: 1px solid #BBBBBB;
 }
 
-.main, #subscribe {
-    background-color: #F2F0ED;
+.inset {
+    background-color: #F5F2F0;
+    border: 1px solid #EBE6E0;
 }
 
 #mc_embed_signup {
@@ -30,7 +32,6 @@ body {
     border: 1px solid #151515;
     box-shadow: 4px 4px 0 0 #151515;
     padding: 14.4px 22.5px;
-    font-family: Crimson, Georgia, serif;
     font-size: 20px;
     text-decoration: none;
 }
