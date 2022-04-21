@@ -28,6 +28,7 @@ body {
 }
 
 .subscribe-btn, #mc-embedded-subscribe {
+    color: #222;
     background-color: white;
     border: 1px solid #151515;
     box-shadow: 4px 4px 0 0 #151515;
