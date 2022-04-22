@@ -6,17 +6,17 @@ layout: layouts/table-of-contents.html
 
 Rapid Fullstack Develpment is a book that guides you through theory, techniques, tools and process to be an efficient and effective developer using JavaScript or TypeScript across your entire stack.
 
-NOTE: This outline will change during development of the book.
+<br />
 
-# Frontmatter
+NOTE: This outline will change during development of the book.
 
 # 1. Bootstrapping Rapid Development
 
-[Free to read online](/chapter-1) 
+<!-- [Free to read online](/chapter-1)  -->
 
 Learn the theory and philosophy of rapid development. 
 
-What it is? Why we need it? And, how it can help you be a better developer.
+What it is? Why do we need it? And, how it can help you be a faster developer.
 
 # 2. Backend
 

@@ -30,16 +30,18 @@
 </head>
 <body>
 
-    <nav class="fixed w-96 h-full hidden lg:block bg-red-100">
+    <nav class="side fixed w-64 h-full hidden lg:block">
         Side
     </nav>
-    <nav class="lg:hidden text-center bg-red-100">
-        Header
-    </nav>
-    <div class="pl-4 lg:pl-8 lg:ml-96">
-        <div class="max-w-3xl">
-            {{content}}
+    <nav class="flex flex-row justify-center items-center lg:hidden h-10">
+        <div>
+            Header Mobile
         </div>
+    </nav>
+    <div class="content pl-4 lg:pl-10 pr-4 lg:pl-10 lg:ml-72 lg:mt-10 lg:shadow-lg">
+        <main class="max-w-3xl pb-24">
+            {{content}}
+        </main>
     </div>
 
 </body>
