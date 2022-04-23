@@ -8,10 +8,23 @@ body {
     font-family: Crimson, Georgia, serif;
     line-height: 24px;
     font-size: 16px;
+    font-style: normal;
+    background-color: #E6E2DC;
+}
+
+.side {
+    background-color: #E6E2DC;
+}
+
+.content {
+    background-color: white;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
 }
 
 h1:first-of-type {
-    padding-top: 109px;
+    padding-top: 50px;
     padding-bottom: 31px;
     font-size: 44px;
 }
@@ -28,7 +41,7 @@ ul {
 }
 
 h1 {
-    padding-top: 69px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 30px;
@@ -42,8 +55,8 @@ img {
 }
 
 h2:first-of-type {
-    padding-top: 29px;
-    padding-bottom: 31px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     font: italic 24px/36px "Crimson", Georgia, serif;
     color: #5985a6;    
 }
@@ -86,3 +99,34 @@ h6 {
 pre {
     font-family: 'Source Code Pro', monospace;
 }
+
+.side h1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 1.85em;
+}
+
+.side .menu {
+    background-color: white;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+}
+
+a {
+    color: #222;
+}
+
+.side a {
+    text-decoration: none;
+}
+
+.side a:hover {
+    text-decoration: underline;
+}
+
+.heading h1 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
