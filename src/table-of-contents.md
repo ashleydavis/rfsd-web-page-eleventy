@@ -12,7 +12,7 @@ NOTE: This outline will change during development of the book.
 
 # 1. Bootstrapping Rapid Development
 
-<!-- [Free to read online](/chapter-1)  -->
+<!-- todo: [Free to read online](/chapter-1)  -->
 
 Learn the theory and philosophy of rapid development. 
 
@@ -20,7 +20,9 @@ What it is? Why do we need it? And, how it can help you be a faster developer.
 
 # 2. Backend
 
-First up, we build the backend for the [Photosphere example application](/photosphere-example-application). 
+First up, we build the backend for the Photosphere example application.
+
+<!-- todo: First up, we build the backend for the [Photosphere example application](/photosphere-example-application).  -->
 
 We start coding from nothing, and then code and test Photosphere's Node.js REST API. 
 
