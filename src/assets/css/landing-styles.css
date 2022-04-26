@@ -10,7 +10,8 @@ body {
 }
 
 .heading {
-    color: #111;
+    color: #216BFF;
+    text-shadow: .4px .4px #0A2E9C;
 }
 
 .all {
@@ -28,10 +29,10 @@ body {
 }
 
 .subscribe-btn, #mc-embedded-subscribe {
-    color: #222;
-    background-color: white;
-    border: 1px solid #151515;
-    box-shadow: 4px 4px 0 0 #151515;
+    color: white;
+    background-color: #216BFF;
+    border: 1px solid #0A2E9C;
+    box-shadow: 4px 4px 0 0 #0A2E9C;
     padding: 14.4px 22.5px;
     font-size: 20px;
     text-decoration: none;
