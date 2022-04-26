@@ -28,7 +28,7 @@ body {
     width: 350px;
 }
 
-.subscribe-xbtn, #mc-embedded-subscribe {
+.subscribe-btn, #mc-embedded-subscribe {
     color: white;
     background-color: #216BFF;
     border: 1px solid #0A2E9C;
