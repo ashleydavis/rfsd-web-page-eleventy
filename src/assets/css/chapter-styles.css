@@ -152,3 +152,40 @@ a {
     font-size: 1.25em;
 }
 
+.subscribe-btn, #mc-embedded-subscribe {
+    color: white;
+    background-color: #216BFF;
+    border: 1px solid #0A2E9C;
+    box-shadow: 4px 4px 0 0 #0A2E9C;
+    padding: 14.4px 22.5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.side .subscribe-btn:hover {
+    text-decoration: none;
+}
+
+.side .subscribe-btn:visited {
+    color: white;
+}
+
+#mce-EMAIL {
+    word-break: break-word;
+    background-color: white !important;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: inherit;
+    overflow: visible;
+    border-radius: 4px;
+    border: 2px solid #d0d0d0;
+    width: 100%;
+    display: inline-block;
+    color: #151515;
+    padding: 0 10px;
+    font-family: 'Lora', Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
