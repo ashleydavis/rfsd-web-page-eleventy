@@ -1,5 +1,5 @@
 ---
-layout: layouts/table-of-contents.html
+layout: layouts/outline.html
 ---
 
 # Table of contents
