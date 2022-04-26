@@ -2,9 +2,9 @@
 layout: layouts/outline.html
 ---
 
-# Table of contents
+# Book outline
 
-Rapid Fullstack Develpment is a book that guides you through theory, techniques, tools and process to be an efficient and effective developer using JavaScript or TypeScript across your entire stack.
+In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis</a>, learn the tricks of the trade for writing <em>reliable</em> and <em>valuable</em> code, <strong>quickly</strong>.
 
 <br />
 
@@ -50,20 +50,20 @@ Learn the important techniques for fast and effective testing to keep your code 
 
 # 6. Debugging
 
-Learn strategy and techniques to mercilessly hunting bugs with real examples from the Photosphere application.
+Learn strategy and techniques for merciless bug hunting with real examples from the Photosphere application.
 
 # 7. Beyond fullstack
 
-It's time to go beyond fullstack! 
+Now let's go beyond fullstack! 
 
-We'll extend our development process to build desktop and mobile applications for Photosphere.
+We extend our development process to build desktop and mobile applications for Photosphere.
 
 # 8. Photosphere walkthrough
 
-Let's revist the tools, technique and development process we have learned while taking a tour of the complete Photosphere application.
+Next we revisit the tools, technique and development process we have learned so far, while taking a tour of the completed Photosphere application.
 
 # 9. Learning how to learn
 
-We'll wrap up the book with a discussion on how you can take your own learning as a developer to the next level. 
+We wrap up the book with a discussion on how you can take your own learning as a developer to the next level. 
 
 Learn strategies to be better at learning.

@@ -12,6 +12,11 @@ body {
     background-color: #E6E2DC;
 }
 
+.heading {
+    color: #216BFF;
+    text-shadow: .4px .4px #0A2E9C;
+}
+
 .side {
     background-color: #E6E2DC;
 }
