@@ -50,8 +50,15 @@ h1 {
 
 img {
     max-width: 80vw;
+    padding: 5px;
     border: 1px lightgray solid;
-    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    img {
+        max-width: 575px;
+        padding: 20px;
+    }
 }
 
 h2:first-of-type {
