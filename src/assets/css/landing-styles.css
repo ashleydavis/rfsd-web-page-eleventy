@@ -28,7 +28,7 @@ body {
     width: 350px;
 }
 
-.subscribe-btn, #mc-embedded-subscribe {
+.subscribe-xbtn, #mc-embedded-subscribe {
     color: white;
     background-color: #216BFF;
     border: 1px solid #0A2E9C;
@@ -38,8 +38,13 @@ body {
     text-decoration: none;
 }
 
+/* Add this for Chrome on Android. */
+.subscribe-btn:any-link, .subscribe-btn:-webkkit-any-link {
+    color: white;
+}
+
 .subscribe-btn:visited {
-    color: inherit;
+    color: white;
 }
 
 #mce-EMAIL {
