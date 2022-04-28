@@ -19,6 +19,7 @@ body {
 
 .side {
     background-color: #E6E2DC;
+    width: 320px;
 }
 
 .content {
@@ -26,6 +27,13 @@ body {
     border-top: 1px solid #BBBBBB;
     border-left: 1px solid #BBBBBB;
     border-right: 1px solid #BBBBBB;
+}
+
+@media (min-width: 1024px) {
+    .content {
+        margin-left: 360px;
+        margin-top: 50px;
+    }    
 }
 
 h1:first-of-type {
@@ -53,14 +61,14 @@ h1 {
     line-height: 40px;
 }
 
-img {
+.content img {
     max-width: 80vw;
     padding: 5px;
     border: 1px lightgray solid;
 }
 
 @media (min-width: 1024px) {
-    img {
+    .content img {
         max-width: 575px;
         padding: 20px;
     }
@@ -135,21 +143,20 @@ a {
 
 .side a:hover {
     text-decoration: underline;
+    text-decoration-color: #222;
 }
 
-.heading a {
+.side img {
+    padding: 20px;
+}
+
+a.heading {
     text-decoration: none;
 }
 
-.heading a:hover {
+a.heading:hover {
     text-decoration: underline;
-}
-
-.heading h1 {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: 600;
-    font-size: 1.25em;
+    text-decoration-color: #216BFF;
 }
 
 .subscribe-btn, #mc-embedded-subscribe {

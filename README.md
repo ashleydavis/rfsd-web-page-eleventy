@@ -32,3 +32,6 @@ npm run build-css
 
 Favicon from Gregor Cresnar
 https://thenounproject.com/icon/rocket-780226/
+
+Main page graphic
+https://www.iconfinder.com/icons/7239862/business_marketing_startup_rocket_laptop_icon
