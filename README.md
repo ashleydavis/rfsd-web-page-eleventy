@@ -27,3 +27,8 @@ npm run build
 ```bash
 npm run build-css
 ```
+
+## Attribution
+
+Favicon from Gregor Cresnar
+https://thenounproject.com/icon/rocket-780226/
