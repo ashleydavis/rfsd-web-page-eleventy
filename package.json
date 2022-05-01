@@ -2,12 +2,21 @@
     "name": "web-page-eleventy",
     "description": "The web page for Rapid Fullstack Development",
     "scripts": {
-        "start": "npx @11ty/eleventy --serve",
-        "build": "npx @11ty/eleventy",
-        "build-css": "tailwind build src/tailwind.css -o src/assets/css/tailwind.css"
+        "serve": "npx @11ty/eleventy --serve",
+        "start": "concurrently \"npm run build-styles:watch\" \"npm run serve\"",
+        "build": "npm run build && build-styles && npx @11ty/eleventy",
+        "build-landing-styles": "lessc src/styles/landing-styles.less src/assets/css/landing-styles.css",
+        "build-outline-styles": "lessc src/styles/outline.less src/assets/css/outline.css",
+        "build-chapter-styles": "lessc src/styles/chapter-styles.less src/assets/css/chapter-styles.css",
+        "build-styles": "npm run build-landing-styles && npm run build-outline-styles && npm run build-chapter-styles",
+        "build-styles:watch": "less-watch-compiler src/styles src/assets/css",
+        "build-tailwind": "tailwind build src/tailwind.css -o src/assets/css/tailwind.css"
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
+        "concurrently": "^7.1.0",
+        "less": "^4.1.2",
+        "less-watch-compiler": "^1.16.3",
         "tailwindcss": "2.2.16"
     }
 }
