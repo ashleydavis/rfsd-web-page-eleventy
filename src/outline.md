@@ -6,8 +6,6 @@ layout: layouts/outline.html
 
 In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis</a>, learn the tricks of the trade for writing <em>reliable</em> and <em>valuable</em> code, <strong>quickly</strong>.
 
-<br />
-
 NOTE: This outline will change during development of the book.
 
 # 1. Bootstrapping Rapid Development

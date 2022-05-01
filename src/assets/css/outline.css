@@ -10,55 +10,21 @@ body {
   font-style: normal;
   background-color: #E6E2DC;
 }
-.heading {
-  color: #216BFF;
-  text-shadow: 0.4px 0.4px #0A2E9C;
+a {
+  color: #222;
 }
 .side {
   background-color: #E6E2DC;
   width: 320px;
 }
-.content {
-  background-color: white;
-  border-top: 1px solid #BBBBBB;
-  border-left: 1px solid #BBBBBB;
-  border-right: 1px solid #BBBBBB;
-}
-@media (min-width: 1024px) {
-  .content {
-    margin-left: 360px;
-    margin-top: 50px;
-  }
-}
-p {
+.side p {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-ul {
+.side ul {
   padding-left: 40px;
   margin-top: 16px;
   margin-bottom: 16px;
-}
-h1 {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 40px;
-}
-.side h1 {
-  padding-top: 40px;
-  font-weight: bold;
-  font-size: 1.85em;
-}
-.side .menu {
-  background-color: white;
-  border-top: 1px solid #BBBBBB;
-  border-left: 1px solid #BBBBBB;
-  border-right: 1px solid #BBBBBB;
-}
-a {
-  color: #222;
 }
 .side a {
   text-decoration: none;
@@ -67,18 +33,21 @@ a {
   text-decoration: underline;
   text-decoration-color: #222;
 }
+.side h1 {
+  line-height: 35px;
+  font-size: 1.55em;
+}
+.side .menu {
+  background-color: white;
+  border-top: 1px solid #BBBBBB;
+  border-left: 1px solid #BBBBBB;
+  border-right: 1px solid #BBBBBB;
+}
 .side img {
   padding: 20px;
 }
-.heading {
-  text-decoration: none;
-}
-.heading:hover {
-  text-decoration: underline;
-  text-decoration-color: #216BFF;
-}
-.subscribe-btn,
-#mc-embedded-subscribe {
+.side .subscribe-btn,
+.side #mc-embedded-subscribe {
   color: white;
   background-color: #216BFF;
   border: 1px solid #0A2E9C;
@@ -93,7 +62,7 @@ a {
 .side .subscribe-btn:visited {
   color: white;
 }
-#mce-EMAIL {
+.side #mce-EMAIL {
   word-break: break-word;
   background-color: white !important;
   box-sizing: border-box;
@@ -111,4 +80,81 @@ a {
   height: 50px;
   margin-top: 10px;
   margin-bottom: 0;
+}
+.content {
+  background-color: white;
+  border-top: 1px solid #BBBBBB;
+  border-left: 1px solid #BBBBBB;
+  border-right: 1px solid #BBBBBB;
+}
+.content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content ul {
+  padding-left: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.content h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+.content h1:first-of-type {
+  color: #216BFF;
+  text-shadow: 0.4px 0.4px #0A2E9C;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 44px;
+}
+.content .subscribe-btn,
+.content #mc-embedded-subscribe {
+  color: white;
+  background-color: #216BFF;
+  border: 1px solid #0A2E9C;
+  box-shadow: 4px 4px 0 0 #0A2E9C;
+  padding: 14.4px 22.5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.content #mce-EMAIL {
+  word-break: break-word;
+  background-color: white !important;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: inherit;
+  overflow: visible;
+  border-radius: 4px;
+  border: 2px solid #d0d0d0;
+  width: 100%;
+  display: inline-block;
+  color: #151515;
+  padding: 0 10px;
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-left: 360px;
+    margin-top: 50px;
+  }
+}
+.heading {
+  color: #216BFF;
+  text-shadow: 0.4px 0.4px #0A2E9C;
+}
+.heading a {
+  color: #216BFF;
+  text-shadow: 0.4px 0.4px #0A2E9C;
+  text-decoration: none;
+}
+.heading a:hover {
+  text-decoration: underline;
+  text-decoration-color: #216BFF;
 }
