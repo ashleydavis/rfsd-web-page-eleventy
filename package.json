@@ -4,7 +4,7 @@
     "scripts": {
         "serve": "npx @11ty/eleventy --serve",
         "start": "concurrently \"npm run build-styles:watch\" \"npm run serve\"",
-        "build": "npm run build && build-styles && npx @11ty/eleventy",
+        "build": "npm run build-styles && npx @11ty/eleventy",
         "build-landing-styles": "lessc src/styles/landing-styles.less src/assets/css/landing-styles.css",
         "build-outline-styles": "lessc src/styles/outline.less src/assets/css/outline.css",
         "build-chapter-styles": "lessc src/styles/chapter-styles.less src/assets/css/chapter-styles.css",
