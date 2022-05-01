@@ -18,7 +18,7 @@ What it is? Why do we need it? And, how it can help you be a faster developer.
 
 # 2. Backend
 
-First up, we build the backend for the Photosphere example application.
+First up, we build the backend for the Photosphere example application (stay tuned for more information on the example application).
 
 <!-- todo: First up, we build the backend for the [Photosphere example application](/photosphere-example-application).  -->
 
