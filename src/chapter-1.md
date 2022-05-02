@@ -11,7 +11,7 @@ In this chapter, you will learn:
 
 
 
-* The who, what, why  and how of rapid development
+* The who, what, why and how of rapid development
 * About the philosophy of rapid development
 * About the example application we'll be building in this book
 
