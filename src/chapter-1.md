@@ -15,11 +15,11 @@ In this chapter, you will learn:
 * About the philosophy of rapid development
 * About the example application we'll be building in this book
 
-This is a book about rapid development. But it isn’t just about being a fast _coder_. By itself being able to write code quickly isn’t a worthy goal. It isn‘t even a useful goal.
+This is a book about rapid development. But it isn’t just about being a fast _coder_. By itself being able to write code quickly is not a worthy goal. It’s not even a useful goal.
 
 As a _software developer_ you must be able to produce _working_ and _valuable_ code. 
 
-Otherwise, there's no point being able to write code quickly. The real trick to moving quickly is to focus on the aspects of development that help you build your code the _right _way and indeed to make sure that it is the _right _code. 
+Otherwise, there's no point being able to write code quickly. The real trick to moving quickly is to focus on the aspects of development that help you build your code the _right_ way and indeed to make sure that it is the _right_ code. 
 
 When we create _broken_ code (it’s so easy to do) we stifle our future progress. 
 
@@ -70,7 +70,7 @@ Generally, our goals are these:
 * Create a rapid, but sustainable, pace of development
 * Improve our probability of producing working code
 * Increase the value of the code we write
-* Improve our development cadence: the rate at which we produce _working _and _valuable _code.
+* Improve our development cadence: the rate at which we produce _working_ and _valuable_ code.
 
 This book is accompanied by many working code examples for you to follow along with and a complete non-trivial example application called _Photosphere_ (more about that soon).
 
@@ -129,9 +129,9 @@ More than anything rapid development is a state of mind. It’s a commitment to 
 
 # 1.7 Achieving rapid development
 
-The question then, is how do we achieve rapid development?
+The question now is how do we achieve rapid development?
 
-We’ll achieve it by targeting the following areas:
+We’ll achieve it by through the following principles:
 
 
 
@@ -142,7 +142,7 @@ We’ll achieve it by targeting the following areas:
 
 ## 1.7.1 Creating a rapid pace
 
-We must adopt a streamlined process for creating and testing our code. We are looking for techniques, tools and practices that support, empower and scale us.
+We must create a streamlined process for creating and testing our code. Our process should consist of techniques, tools and practices that support, empower and scale us. Elements of our process that slow us down should be jettisoned.
 
 We aim to deliver working code at a fast pace in regular intervals, but we also need to make sure our process is sustainable. If we burn out, that’s a huge derailment of our productivity. We need a routine that includes down time so that we can include periods of rest and be able to maintain a rapid pace indefinitely.
 
@@ -153,7 +153,7 @@ As a developer we aim to deliver a flow of useful code for our employer, our org
 
 We should prioritize our work based on its value. This helps to ensure that we are always working on the most valuable code that we could be working on _right now_.  
 
-However we must also balance the value of the code against the cost to build it.
+But it’s not just the value of the code we need to consider, we must also balance the value of the code against the cost to build it.
 
 We should prioritize our work not just by how much it is worth, but also by how much we _estimate_ it will cost to build. So code that is slightly valuable and takes a day to deliver can be a higher priority than code that is extremely valuable and takes a month to deliver. Estimation is an artform unto itself that we’ll deal with later.
 
@@ -176,17 +176,18 @@ You have probably experienced some of these yourself:
 
 * We automate things that don’t need to be automated;
 * We adopt tools and processes that slow us down;
-* We regularly create bugs that take a lot of time to find and fix; _and last but far from least -_
+* We regularly create bugs that take a lot of time to find and fix; 
 * We waste time on code and features that ultimately will be used infrequently and sometimes not at all;
+* And finally; we often burn time trying to get that last ounce of unnecessary perfection from our code.
 
-To adopt the rapid developer mindset we must start with some honesty.  Before we can reduce or eliminate the things that slow us down we need to recognise and identify them.
+To adopt the rapid developer mindset we must start with some honesty.  Before we can reduce or eliminate the things that slow us down we need to recognise and identify them. Then train yourself to be wary of any task that consumes time, but is not necessary.
 
 Removing wasted time from our development process is fundamental to our performance as a developer.
 
 
 # 1.8 A philosophy for rapid development
 
-Before we can create a development process that implements rapid development, we need a philosophy that can help guide us in the creation of it.
+To  create a development process for rapid development, we first need a guiding philosophy.
 
 Here is a philosophy for rapid development that we’ll embrace though this book:
 
@@ -217,7 +218,7 @@ By iterations I mean that we take a big complex task (like building a software p
 ![Iterations are crucial to software development](/assets/images/chapter-1/1_2-iterations.png)
 ### Figure 1.2:  Iterations are crucial to software development
 
-Iterations help us to set a rapid pace. They are the beating drum that keeps us rolling forward. It’s how we make progress toward a larger goal.
+Iterations help us to set a rapid pace. They are the beating drum that keeps us rolling forward. It’s how we make incremental progress toward a larger goal.
 
 By the way, the iterations I’m talking about here could be personal work iterations or they could be team-based iterations, aka Sprints. In this book we are mostly talking about coding at the individual level, but most of this also applies at the team level. The important point is that any big task should be tackled sequentially through a series of iterations.
 
@@ -236,7 +237,8 @@ This _code first, think later_ way of working is prone to errors. The challenge 
 >###### Put regular sessions of thinking between bursts of coding.
 
 
-Thinking is important, because it helps us determine when we are  moving in the wrong direction and wasting our time. Iterations give us natural gaps in which we can review and plan our work and reassess if we are still heading in the right direction.
+
+Thinking is important, because it helps us determine when we are  moving in the wrong direction and wasting our time. Iterations give us natural gaps in which we can review and plan our work and continuously reassess if we are still heading in the right direction.
 
 I like to use the Pomodoro Technique for this. As illustrated in Figure 1.3 it gives us a cycle of personal work iterations that are each 25 minutes long and have breaks between them. The start of each Pomodoro is a natural time to rethink what we are doing.
 
@@ -244,7 +246,7 @@ I like to use the Pomodoro Technique for this. As illustrated in Figure 1.3 it g
 ![The Pomodoro technique provides spaces for thinking and rest](/assets/images/chapter-1/1_3-pomodoros.png)
 ### Figure 1.3: The Pomodoro technique provides spaces for thinking and rest
 
-We don’t always want or need to be moving at a breakneck speed. It’s important that we can slow down when we need to and think about what we are doing.
+We don’t always want or need to be moving at a breakneck speed. It’s important that we have times when we can slow down when necessary and think about what we are doing.
 
 
 >###### Pomodoro is the Italian word for tomato and the Pomodoro Technique is named after the ubiquitous tomato shaped kitchen timer.
@@ -272,7 +274,7 @@ Frequent re-evaluation supported by iterations allows us to be more dynamic and 
 
 ## 1.8.3 Keep your code working
 
-Many developers spend much of their time debugging broken or badly behaving code. To some extent debugging is necessary, but there are many times when the problems that cause debugging can be avoided.
+Many developers spend much of their time debugging broken or badly behaving code. To some extent debugging is necessary, but there are many times when the problems that require debugging can be avoided.
 
 This boils down to what is essentially my most sacred rule of software development: _Keep your code working_. 
 
@@ -282,7 +284,9 @@ This is so important and so fundamental for me, that I sometimes think everyone 
 >###### Don’t tolerate broken code.
 
 
-Figure 1.4 shows efficient development in action. We take our code through a series of changes, repeatedly going from working state to working state. We do not tolerate broken code, whenever it is detected we fix it and return our code to a working state.
+Figure 1.4 shows efficient development in action. While working on new or updated features we take our code through a series of changes. The key milestone at each point is that we have working code. Development  is taking code through a succession of changes  repeatedly going from working state to working state. 
+
+We do not tolerate broken code, whenever it is detected we fix it and immediately return our code to a working state.
 
 
 ![The process of development is taking your code through a series of changes from working state to working state](/assets/images/chapter-1/1_4-working-state-to-working-state.png)
@@ -295,7 +299,7 @@ You have to understand that the natural state of code is actually a state of bei
 
 That’s not to say that code breaks by itself. If code works and you don’t touch it, then it won’t just break by itself. It’s only when adding new code or editing existing code that we risk breaking it. It also doesn’t mean that code that seems to work now won’t be found to be broken in the future. Any code can have latent issues waiting to be discovered.
 
-This book will show you many practical ways to avoid broken code.
+One key to creating working code is getting _fast_ _feedback_. The faster we can go from making a code change, however small, to seeing it work (or not work) the more quickly we can develop working code. Through this book, especially in chapters 2, 3 and 4, we’ll create a development pipeline with almost immediate feedback, we’ll also cover  many practical ways to avoid broken code.
 
 
 >##### HOW IT HELPS
@@ -329,11 +333,11 @@ A truth that can be difficult to see is that we _can_ create complex products (p
 >###### Strive for simplicity while coding: prefer simple code and solutions over complicated ones.
 >###### Avoid complicated tools, techniques and processes.
 
-There are many benefits to writing simple code. For a start it is easier to understand, which is great when other people (or maybe your future self) have to work with your code. But the most substantial benefit of simple code is that it is easy to test, and code that is easy to test is easier to _keep working_.
+There are many benefits to writing simple code. To start, it is easier to understand. This is great when other people (or maybe your future self) have to work with your code. But the most substantial benefit of simple code is that simple code is easy to test, and code that is easy to test is easier to _keep working_.
 
 One way that code gets complicated is through _optimization_. So don’t be too quick to optimize your code. Personally I aim for good performance code, the best that I can achieve quickly anway, but only when it doesn’t sacrifice simplicity. In this book (not sure which chapter yet) we’ll talk about some rules for optimization to help prevent you from optimizing code before you need it. There’s a good reason Donald Knuth said that _premature optimization is the root of all evil_.
 
-Another way that code gets complicated is by _over engineering_, also known as _future proofing _your code. Experienced developers recognise when they are doing this, because so often in the past they have overly-complicated their code making it flexible enough to handle situations they later realized would never happen.
+Another way that code gets complicated is by _over engineering_, also known as _future proofing_ your code. Experienced developers recognise when they are doing this, because so often in the past they have overly-complicated their code making it flexible enough to handle situations they later realized would never happen.
 
 It’s very liberating to understand that you should be coding for _now_ and not so much for _later_, but like anything in software development it’s a balancing act that relies on your judgment and experience (and sometimes a bit of luck, because you won’t always get it right!).
 
@@ -356,13 +360,16 @@ Getting to a solution quickly, artfully avoiding wrong turns and dead ends, is  
 
 I’m talking about things like this:
 
-* Do you really need your code to be perfect? (Who even gets to decide what perfect means?) _Ok and useful_ is preferable to _almost perfect and not yet published_. 
+
+
+* Does your code really need to be perfect? (Who even gets to decide what perfect means?) _Ok and useful_ is preferable to _almost perfect and not yet published_. 
 * Do you need automated testing? Often start ups can’t afford this level of investment in their code. (We’ll talk about the tradeoffs of automated testing in Chapter 5).
 * Can you circumvent your company's usual traditions, process and conventions to demonstrate a groundbreaking new feature quickly? (possibly in a _testbed_ application, which we’ll also see in Chapter 5).
 
 >###### Perfection is the enemy of productivity.
 
-Learn where the acceptable boundaries are in your organization. When you know what you can and can’t get away with,  you will find faster ways to deliver your code.
+
+Learn where the acceptable boundaries are in your organization. When you know what you can and can’t get away with, you will find faster ways to deliver your code.
 
 >##### HOW IT HELPS
 >###### Understand where  it’s ok to cut corners (and still keep your job).
@@ -392,6 +399,7 @@ I asked this question, _what’s the fastest way to write code_, because I hope 
 
 Thinking about where you can deliver the most value, thinking about the best place to invest your time - these are the kinds of thoughts that put you on track to more effective software development.
 
+
 # 1.10 Rapid development
 
 We’ve talked through the goals and philosophy of rapid development. Before we move on, here’s a quick summary. 
@@ -408,12 +416,15 @@ We achieve rapid development by:
 
 Our philosophy of rapid development:
 
+
+
 * Build software through iterations, including time for rest and thinking
 * Keep your code working
 * Manage complexity, avoid complications
 * Know when to cut corners
 
 Through this book we'll create a development process that implements our philosophy of rapid development and makes it a reality. 
+
 
 # 1.11 The example app: _Photosphere_
 
@@ -424,6 +435,7 @@ You can follow along with the coding and together we’ll build a fullstack appl
 Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book we’ll have desktop and mobile applications that can automatically find photos on our devices and upload them for us. 
 
 This won’t be a blow by blow tutorial on how to create a fullstack application, but it will provide plenty of demonstrations of how to implement the theory described in this chapter and create a fast pace of development for ourselves.
+
 
 # 1.12 Book overview
 
