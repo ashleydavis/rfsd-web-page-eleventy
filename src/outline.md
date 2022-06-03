@@ -8,7 +8,7 @@ In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis
 
 NOTE: This outline will change during development of the book.
 
-# 1. Bootstrapping Rapid Development
+# 1. Working **and** valuable
 
 <!-- todo: [Free to read online](/chapter-1)  -->
 
@@ -16,7 +16,7 @@ Learn the theory and philosophy of rapid development.
 
 What it is? Why do we need it? And, how it can help you be a faster developer.
 
-# 2. Backend
+# 2. From little things, big things grow
 
 First up, we build the backend for the [Photosphere example application](/example-application).
 
@@ -24,7 +24,7 @@ We start coding from nothing, and then code and test Photosphere's Node.js REST 
 
 Learn techniques for rapid iterations of coding with fast feedback, refactoring to let an elegent design emerge by itself and testing to make sure our code works.
 
-# 3. Frontend
+# 3. The other side of the equation
 
 Next we build the frontend for Photosphere. 
 
@@ -32,7 +32,7 @@ Again we'll start with nothing and construct a browser-based user interface from
 
 Learn how to connect to the backend and get fast feedback to rapidly prototype your user interface.
 
-# 4. Scaling
+# 4. Growing pains
 
 Now we scale up our development process to handle a backend with multiple services. 
 
@@ -40,15 +40,15 @@ We'll add some microservices to Photosphere, but the techniques presented in thi
 
 Learn how to use Docker Compose to create a convenient setup for fast development and testing of our fullstack application, including the integration of a database (or other services).
 
-# 5. Testing
-
-Learn the important techniques for fast and effective testing to keep your code working through repeated change and evolution. With real examples from the Photosphere application.
-
-# 6. Debugging
+# 5. Being the detective
 
 Learn strategy and techniques for merciless bug hunting with real examples from the Photosphere application.
 
-# 7. Beyond fullstack
+# 6. Your own personal testing robot
+
+Learn the important techniques for fast, effective and automated testing to keep your code working through repeated change and evolution. With real examples from the Photosphere application.
+
+# 7. Beyond the stack
 
 Now let's go beyond fullstack! 
 
@@ -58,7 +58,7 @@ We extend our development process to build desktop and mobile applications for P
 
 Next we revisit the tools, technique and development process we have learned so far, while taking a tour of the completed Photosphere application.
 
-# 9. Learning how to learn
+# 9. Mindset is a starting point
 
 We wrap up the book with a discussion on how you can take your own learning as a developer to the next level. 
 

@@ -2,8 +2,7 @@
 layout: layouts/chapter.html
 ---
 
-# 1 Bootstrapping Rapid Development	
-
+# 1 Working **and** valuable
 
 ## Gearing your process for rapid pace
 
