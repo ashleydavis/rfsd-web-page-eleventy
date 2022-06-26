@@ -9,60 +9,163 @@ body {
     background-color: #E6E2DC;
 }
 
-.heading {
-    color: #216BFF;
-    text-shadow: .4px .4px #0A2E9C;
-}
-
-.all {
-    background-color: white;
-    border: 1px solid #BBBBBB;
-}
-
-.inset {
-    background-color: #F5F2F0;
-    border: 1px solid #EBE6E0;
-}
-
-#mc_embed_signup {
-    width: 350px;
-}
-
-.subscribe-btn, #mc-embedded-subscribe {
-    color: white;
-    background-color: #216BFF;
-    border: 1px solid #0A2E9C;
-    box-shadow: 4px 4px 0 0 #0A2E9C;
-    padding: 14.4px 22.5px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
 /* Add this for Chrome on Android. */
 .subscribe-btn:any-link, .subscribe-btn:-webkkit-any-link {
     color: white;
 }
 
-.subscribe-btn:visited {
-    color: white;
+.side {
+    background-color: #E6E2DC;
+    width: 320px;
+
+    p {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    ul {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: #222;
+    }
+
+    h1 {
+        line-height: 35px;
+        font-size: 1.55em;
+    }
+
+    .menu {
+        background-color: white;
+        border-top: 1px solid #BBBBBB;
+        border-left: 1px solid #BBBBBB;
+        border-right: 1px solid #BBBBBB;
+    }
+
+    img {
+            padding: 20px;
+    }
+
+    .subscribe-btn, #mc-embedded-subscribe {
+        color: white;
+        background-color: #216BFF;
+        border: 1px solid #0A2E9C;
+        box-shadow: 4px 4px 0 0 #0A2E9C;
+        padding: 14.4px 22.5px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .subscribe-btn:hover {
+        text-decoration: none;
+    }
+
+    .subscribe-btn:visited {
+        color: white;
+    }
+
+    #mce-EMAIL {
+        word-break: break-word;
+        background-color: white !important;
+        box-sizing: border-box;
+        margin: 0;
+        line-height: inherit;
+        overflow: visible;
+        border-radius: 4px;
+        border: 2px solid #d0d0d0;
+        width: 100%;
+        display: inline-block;
+        color: #151515;
+        padding: 0 10px;
+        font-family: 'Lora', Georgia, 'Times New Roman', serif;
+        font-size: 16px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
 }
 
-#mce-EMAIL {
-    word-break: break-word;
-    background-color: white !important;
-    box-sizing: border-box;
-    margin: 0;
-    line-height: inherit;
-    overflow: visible;
-    border-radius: 4px;
-    border: 2px solid #d0d0d0;
-    width: 100%;
-    display: inline-block;
-    color: #151515;
-    padding: 0 10px;
-    font-family: 'Lora', Georgia, 'Times New Roman', serif;
-    font-size: 16px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 0;
+.content {
+    background-color: white;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+
+    .subscribe-btn, #mc-embedded-subscribe {
+        color: white;
+        background-color: #216BFF;
+        border: 1px solid #0A2E9C;
+        box-shadow: 4px 4px 0 0 #0A2E9C;
+        padding: 14.4px 22.5px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #mce-EMAIL {
+        word-break: break-word;
+        background-color: white !important;
+        box-sizing: border-box;
+        margin: 0;
+        line-height: inherit;
+        overflow: visible;
+        border-radius: 4px;
+        border: 2px solid #d0d0d0;
+        width: 100%;
+        display: inline-block;
+        color: #151515;
+        padding: 0 10px;
+        font-family: 'Lora', Georgia, 'Times New Roman', serif;
+        font-size: 16px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    img {
+        max-width: 80vw;
+        padding: 5px;
+    }   
+    
+	.inset {
+	    background-color: #F5F2F0;
+	    border: 1px solid #EBE6E0;
+	}
 }
+
+
+.heading {
+    color: #216BFF;
+    text-shadow: .4px .4px #0A2E9C;
+
+    a {
+        color: #216BFF;
+        text-shadow: .4px .4px #0A2E9C;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: #216BFF;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        margin-left: 360px;
+        margin-top: 50px;
+
+        img {
+            max-width: 575px;
+            padding: 20px;
+        }
+    }
+}
+

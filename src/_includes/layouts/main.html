@@ -7,6 +7,7 @@
     <title>Rapid Fullstack Development</title>
     <meta name="description" content="A new book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
 
+    <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 
     <link rel="shortcut icon" href="/assets/images/favicomatic/favicon.ico">
@@ -30,15 +31,13 @@
     <meta name="msapplication-square150x150logo" content="/assets/images/favicomatic/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="/assets/images/favicomatic/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/assets/images/favicomatic/mstile-310x310.png" />
-   
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!-- https://www.joshuarudd.com/typeset.css/ -->
     <link rel="stylesheet" type="text/css" href="/assets/css/typeset.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/tailwind.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/landing-styles.css" />
 
-    <!-- Facebook Meta Tags -->
+ <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://rapidfullstackdevelopment.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rapid Fullstack Development">
@@ -53,7 +52,7 @@
     <meta name="twitter:title" content="Rapid Fullstack Development">
     <meta name="twitter:description" content="A new book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
     <meta name="twitter:image" content="https://rapidfullstackdevelopment.com/coding-cycle.png">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCP3RM6ZN8"></script>
     <script>
@@ -66,6 +65,111 @@
     
 </head>
 <body>
-    {{content}}
+
+    <nav class="side fixed h-full hidden lg:block pl-4 pr-4 pt-0">
+
+        <div class="flex flex-row items-center pt-4 max-w-lg mx-auto">
+            <img
+                class="max-h-20" 
+                src="/assets/images/landing/7239862_business_marketing_startup_rocket_laptop_icon_512px.png" 
+                />
+    
+            <div class="heading">
+                <a href="/">
+                    <h1>
+                    <em>Rapid</em> Fullstack Development
+                </h1>
+            </a>
+        </div>
+        </div>
+
+        <div class="menu rounded-sm shadow-lg pl-3 pr-3 pt-1 pb-4 max-w-lg mt-6 mx-auto">
+            <p class="text-lg">
+                Helping developers write reliable and valuable code, <span class="font-bold">quickly</span>
+            </p>
+            <li class="mt-4">
+                <a href="/">Home page</a>
+            </li>
+            <li>
+                <a href="/outline">Book outline</a>
+            </li>
+            <li>
+                <a href="/example-application">The example application</a>
+            </li>
+            <li>
+                <a href="/chapter-1">Chapter 1: Working <strong>and</strong> valuable</a>
+            </li>
+        </div>
+        
+        <div class="w-full pt-10 pl-2">
+            <a href="#subscribe" class="subscribe-btn">
+                 Subscribe for updates
+             </a>
+         </div>
+
+    </nav>
+
+    <nav class="text-center lg:hidden pt-4 pb-4">
+        <div class="heading text-sm">
+            <a href="/"><h1><em>Rapid</em> Fullstack Development</h1></a>
+        </div>
+    </nav>
+    
+    <main class="content rounded-sm pl-4 lg:pl-10 pr-4 lg:shadow-lg lg:mr-10 max-w-4xl pb-24">
+        {{content}}
+
+        <section id="subscribe" class="ml-4 mr-4 mt-10 p-4 pt-10 sm:rounded-b-sm">
+            <div class="heading text-3xl text-bold pb-6">
+                This book is in development
+            </div>
+        
+            <div class="flex flex-col sm:flex-row items-center">
+                <div class="text-base sm:pr-8 max-w-lg">
+        
+                    <div class="mb-6">
+                        I'm currently teasing this book out of my brain.
+                    </div>
+                    
+                    <div class="mb-6">
+                        Please join me on this new adventure exploring rapid development techniques applied to fullstack coding.
+                    </div>
+                    
+                    <div class="mb-6">
+                        Register your email to show support and receive important news and updates.            
+                    </div>
+                </div>
+        
+                <div class="pt-8 sm:pt-0">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://rapidfullstackdevelopment.us20.list-manage.com/subscribe/post?u=c497e6cc81dc74274015d11ee&amp;id=e8c6ea4294" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+                                <div class="heading mc-field-group mb-6">
+                                    <label for="mce-EMAIL">Email Address  
+                                        <!-- <span class="asterisk">*</span> -->
+                                    </label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c497e6cc81dc74274015d11ee_e8c6ea4294" tabindex="-1" value=""></div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                        <!-- <p class="brandingLogo"><a href="http://eepurl.com/hSrJwP" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <!--End mc_embed_signup-->        
+                </div>
+            </div>
+        </section>
+    </main>    
 </body>
 </html>

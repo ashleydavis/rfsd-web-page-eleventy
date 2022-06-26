@@ -1,6 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 body {
   color: #222;
@@ -183,16 +183,6 @@ a {
   padding: 5px;
   border: 1px lightgray solid;
 }
-@media (min-width: 1024px) {
-  .content {
-    margin-left: 360px;
-    margin-top: 50px;
-  }
-  .content img {
-    max-width: 575px;
-    padding: 20px;
-  }
-}
 .heading {
   color: #216BFF;
   text-shadow: 0.4px 0.4px #0A2E9C;
@@ -205,4 +195,14 @@ a {
 .heading a:hover {
   text-decoration: underline;
   text-decoration-color: #216BFF;
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-left: 360px;
+    margin-top: 50px;
+  }
+  .content img {
+    max-width: 575px;
+    padding: 20px;
+  }
 }
