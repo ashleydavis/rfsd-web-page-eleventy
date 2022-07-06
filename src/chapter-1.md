@@ -4,6 +4,7 @@ layout: layouts/chapter.html
 
 # 1 Working **and** valuable
 
+
 ## Gearing your process for rapid pace
 
 In this chapter, you will learn:
@@ -29,9 +30,9 @@ This book will help you to create working and valuable code, quickly.
 
 # 1.1 A software developer’s journey
 
-_Rapid Fullstack Development_ is a book that gives you, a fullstack developer (or someone working towards being a fullstack developer) the help you need to achieve your goal of becoming a better developer, indeed a faster developer, but we’ll do it in the right way.
+_Rapid Fullstack Development_ is a book that gives you, a fullstack developer (or someone working towards that) the help you need to achieve your goal of becoming a better developer, indeed a faster developer, but we’ll do it in the right way.
 
-Well, in truth, there is no right way to do this. We are all different. We each learn in our own unique way.  There simply is no _one size fits all_ solution. Software development is too complicated for that and relies too much on situation, context,  judgment and experience. 
+Well, in truth, there is no right way to do this. We are all different and there are as many different ways to _do_ software development as there are developers. We each learn in our own unique way and there simply is no _one size fits all_ solution. Software development is too complicated for that and relies too much on situation, context,  judgment and experience. The thing that makes _you_ a good software developer might very well be different to the thing that works for someone else.
 
 One thing I know for sure is that goals alone aren’t enough to achieve anything. Goals can’t be fulfilled without having the habits to back them up. Your habits will define you. Create good habits and you will become a good developer. Create bad habits and … well you get the idea.
 
@@ -205,16 +206,19 @@ Did you ever have the experience where you were coding for hours (or longer) and
 
 Or even worse: it did work (kinda), except it had a bunch of hidden bugs that were then, rather embarrassingly, found by your users. 
 
-Coding for a long time before testing is a terrible idea. The reality is that software doesn’t get created like that. A simple truth of software development is that _nothing gets created all at once_. Successful development is usually done in parts, assembling the product piece-by-piece through an iterative and evolutionary process.
+Coding for a long time before testing is a terrible idea. The reality is that software doesn’t get created like that. A simple truth of software development is that _nothing gets created all at once_. Successful development is usually done through a series of increments, assembling the product piece-by-piece through an iterative and evolutionary process.
 
 
 >###### Software development is done through iterations.
 
 
-By iterations I mean that we take a big complex task (like building a software product or part of a software product) and we break it down into smaller and more easily managed pieces. This _divide and conquer_ approach to development makes the whole job more attainable because we can see milestones along the path. It also means we can test our code incrementally instead of doing _big bang_ testing at the end.
+By iterations I mean that we take a big complex task (like building a software product) and we break it down into smaller and more easily managed pieces. This _divide and conquer_ approach to development makes the whole job more attainable because we can see the milestones along the path. It also means we can test our code bit by bit instead of doing _big bang_ testing at the end (that usually doesn’t work out so well).
 
 
 ![Iterations are crucial to software development](/assets/images/chapter-1/1_2-iterations.png)
+
+
+
 ### Figure 1.2:  Iterations are crucial to software development
 
 Iterations help us to set a rapid pace. They are the beating drum that keeps us rolling forward. It’s how we make incremental progress toward a larger goal.
@@ -255,14 +259,15 @@ Having thinking and rest embedded in our process gives us the best chance of mak
 
 Regular breaks make our process sustainable, giving us the energy we need to make it through our working day.
 
+
 >###### If you dislike 25 minute iterations, change to another amount you feel more comfortable with.
 
 Frequent re-evaluation supported by iterations allows us to be more dynamic and able to quickly change direction the moment we see a better option. This is especially useful, because sometimes clarity only appears when we are part way through a coding task. There may come a point where you re-estimate the current task to be more difficult than originally estimated, subsequently de-prioritizing it in favor of other tasks that are now higher priority because they are easier to deliver.
 
 
 >##### HOW IT HELPS
-> ###### Thinking while working keeps you heading in the right direction.
-> ###### This avoids wasting time by moving in the wrong direction.
+>###### Thinking while working keeps you heading in the right direction.
+>###### This avoids wasting time by moving in the wrong direction.
 
 
 
@@ -316,9 +321,13 @@ Applications are getting bigger, business requirements are growing and customers
 
 Our products have an increasing number of moving parts with exponentially growing interactions: that’s the nature of complexity.  As developers we must find ways of dealing with complexity to stop it bringing our pace of development to a crawl.
 
+
 >###### Complexity can’t be avoided, but we can manage it through our tools, techniques and process.
 
+
 Fortunately, we have many ways to tackle complexity while coding, including:
+
+
 
 * Creating abstractions;
 * Componentizing our code;
@@ -329,8 +338,10 @@ Talking about complication on the other hand, it is quite different from complex
 
 A truth that can be difficult to see is that we _can_ create complex products (products with many interacting parts) that are built from simple, not complicated, parts. Building complex products from simple parts is an ongoing theme in this book.
 
+
 >###### Strive for simplicity while coding: prefer simple code and solutions over complicated ones.
 >###### Avoid complicated tools, techniques and processes.
+
 
 There are many benefits to writing simple code. To start, it is easier to understand. This is great when other people (or maybe your future self) have to work with your code. But the most substantial benefit of simple code is that simple code is easy to test, and code that is easy to test is easier to _keep working_.
 
@@ -369,6 +380,7 @@ I’m talking about things like this:
 
 
 Learn where the acceptable boundaries are in your organization. When you know what you can and can’t get away with, you will find faster ways to deliver your code.
+
 
 >##### HOW IT HELPS
 >###### Understand where  it’s ok to cut corners (and still keep your job).
@@ -433,8 +445,7 @@ You can follow along with the coding and together we’ll build a fullstack appl
 
 Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book we’ll have desktop and mobile applications that can automatically find photos on our devices and upload them for us. 
 
-This won’t be a blow by blow tutorial on how to create a fullstack application, but it will provide plenty of demonstrations of how to implement the theory described in this chapter and create a fast pace of development for ourselves.
-
+Through building Photosphere we’ll learn the habits that we need to create a fast pace of development.
 
 # 1.12 Book overview
 
