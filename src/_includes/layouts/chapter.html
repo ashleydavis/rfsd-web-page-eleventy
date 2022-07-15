@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Rapid Fullstack Development</title>
-    <meta name="description" content="A new book by Ashley Davis on being an effective and productive fullstack developer" />
+    <meta name="description" content="A new book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
 
     <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 
     <link rel="shortcut icon" href="/assets/images/favicomatic/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/favicomatic/apple-touch-icon-57x57.png" />
@@ -38,6 +38,23 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/typeset.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/tailwind.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/chapter-styles.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/sidebar.css" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://rapidfullstackdevelopment.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rapid Fullstack Development">
+    <meta property="og:description" content="A new book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
+    <meta property="og:image" content="https://rapidfullstackdevelopment.com/coding-cycle.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="rapidfullstackdevelopment.com">
+    <meta property="twitter:url" content="https://rapidfullstackdevelopment.com/">
+    <meta name="twitter:title" content="Rapid Fullstack Development">
+    <meta name="twitter:description" content="A new book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
+    <meta name="twitter:image" content="https://rapidfullstackdevelopment.com/coding-cycle.png">
 
     <!-- https://prismjs.com/ -->
     <!-- https://cdnjs.com/libraries/prism -->
@@ -57,19 +74,30 @@
 </head>
 <body>
 
-    {% include "../partials/sidebar.html" %}
+    <div id="sidebar">
+        {% include "../partials/sidebar.html" %}
+    </div>
+    <div id="content">
+        <button id="menu-button" class="text-2xl w-8" onclick="toggleSidebar(event)">
+            |||
+        </button>
 
-    <nav class="text-center lg:hidden pt-4 pb-4">
-        <div class="heading text-sm">
-            <a href="/"><h1><em>Rapid</em> Fullstack Development</h1></a>
-        </div>
-    </nav>
-    
-    <main class="content rounded-sm pl-4 lg:pl-10 pr-4 lg:shadow-lg lg:mr-10 max-w-4xl pb-24">
-        {{content}}
+        <main class="content rounded-sm lg:shadow-lg" onclick="closeSidebar(event)">
+            {{content}}
 
-        {% include "../partials/subscribe-section.html" %}
-    </main>    
+            {% include "../partials/subscribe-section.html" %}
+        </main>    
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.body.classList.toggle("open"); 
+        }
+
+        function closeSidebar() {
+            document.body.classList.remove("open"); 
+        }
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/components/prism-core.min.js" integrity="sha512-LCKPTo0gtJ74zCNMbWw04ltmujpzSR4oW+fgN+Y1YclhM5ZrHCZQAJE4quEodcI/G122sRhSGU2BsSRUZ2Gu3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-GP4x8UWxWyh4BMbyJGOGneiTbkrWEF5izsVJByzVLodP8CuJH/n936+yQDMJJrOPUHLgyPbLiGw2rXmdvGdXHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
