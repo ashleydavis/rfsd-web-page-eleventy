@@ -38,7 +38,7 @@ a {
 
     a {
         text-decoration: none;
-    }  
+    }
 
     a:hover {
         text-decoration: underline;
@@ -100,17 +100,7 @@ a {
     }
 }
 
-#content {
-    width: 100vw;
-}
-
 .content {
-    max-width: 800px;
-    
-    padding-top: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 150px;
 
     background-color: white;
     border-top: 1px solid #BBBBBB;
@@ -153,7 +143,7 @@ a {
         font-size: 20px;
         text-decoration: none;
     }
-    
+
     #mce-EMAIL {
         word-break: break-word;
         background-color: white !important;
@@ -191,6 +181,17 @@ a {
     }
 }
 
+@media (max-width: 1024px) {
+    .content {
+        .inner {
+            padding-top: 0;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 150px;
+        }
+    }
+}
+
 @media (min-width: 1024px) {
     #content {
         padding-top: 50px;
@@ -199,10 +200,14 @@ a {
     }
 
     .content {
-        padding-top: 0;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 80px;
+        max-width: 800px;
+
+        .inner {
+            padding-top: 0;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 80px;
+        }
 
         img {
             max-width: 575px;

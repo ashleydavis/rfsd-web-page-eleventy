@@ -86,15 +86,7 @@ a {
   margin-top: 10px;
   margin-bottom: 0;
 }
-#content {
-  width: 100vw;
-}
 .content {
-  max-width: 800px;
-  padding-top: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 150px;
   background-color: white;
   border-top: 1px solid #BBBBBB;
   border-left: 1px solid #BBBBBB;
@@ -165,6 +157,14 @@ a {
   text-decoration: underline;
   text-decoration-color: #216BFF;
 }
+@media (max-width: 1024px) {
+  .content .inner {
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 150px;
+  }
+}
 @media (min-width: 1024px) {
   #content {
     padding-top: 50px;
@@ -172,6 +172,9 @@ a {
     padding-bottom: 150px;
   }
   .content {
+    max-width: 800px;
+  }
+  .content .inner {
     padding-top: 0;
     padding-left: 50px;
     padding-right: 50px;
