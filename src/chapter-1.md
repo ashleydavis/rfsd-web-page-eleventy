@@ -48,7 +48,7 @@ If you don’t know JavaScript or TypeScript you can still read this book, but y
 
 >##### Learning JavaScript
 >###### Here are some recommended resources for learning JavaScript.
->###### - **You don’t know JS Yet** by Kyle Simspon
+>###### - **You don’t know JS Yet** by Kyle Simpson
 >###### - **Eloquent JavaScript** by Marjin Haverbeke
 >###### - **The Modern JavaScript Tutorial** by Ilya Kantor 
 
