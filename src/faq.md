@@ -42,7 +42,7 @@ This gives you a chance to buy the book at a discount, support the author and be
 
 ## How much is early access?
 
-Early access is set at $6 USD. That's a massive 80% off the final price for getting onboard early in the book's development.
+Early access is set at $9 AUD (approx $6 USD). That's a massive 80% off the final price for getting onboard early in the book's development.
 
 ## How much will the completed book be?
 
