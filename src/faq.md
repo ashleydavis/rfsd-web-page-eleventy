@@ -8,6 +8,32 @@ layout: layouts/chapter.html
 
 Please email your questions to [ashley@codecapers.com.au](mailto:ashley@codecapers.com.au).
 
+## What will I learn?
+
+- Building a complex product through a series of simple steps.
+- Creating habits and a development process geared for a rapid pace.
+- Techniques that produce reliable and valuable code.
+- Using live reload across the stack for fast feedback.
+- Capturing working code into version control (aka Git).
+- Automated testing to remove tedious manual testing and have a high level of confidence in your code.
+- Strategies for debugging, problem solving and growing your experience as a developer.
+- Using JavaScript/TypeScript across and beyond the stack, covering:
+  - Backend with Node.js
+  - Frontend (in the browser)
+  - Microservices (just the basics!)
+  - Desktop applications with Electron
+  - Mobile applications with Iconic
+
+## What do I need to know already before reading this book?
+
+This book doesn't teach JavaScript or TypeScript. You need to know enough to get the gist of the code samples in the book, but don't worry, I've made an effort to keep the example code as simple as I can. If you are coming from another programming language you should have no trouble picking up JavaScript/TypeScript as you read this book.
+
+If you are also learning JavaScript/TypeScript as you read this book you'll probably be ok, provided you put in the work. [Chapter 1](https://rapidfullstackdevelopment.com/chapter-1) provides some resources for you to learn JavaScript.
+
+Coming into this book you should know the basics of using the command line (the terminal) and a code editor of your choice (I recommend Visual Studio Code). 
+
+It will help if you also know the basics of using Git, but that's not completely necessary because we'll only use the simple commands and I explain them as we use them in the book.
+
 ## Why are you writing this book?
 
 I'm writing this book because:
