@@ -52,7 +52,8 @@ a {
   padding: 20px;
 }
 .side .subscribe-btn,
-.side #mc-embedded-subscribe {
+.side #mc-embedded-subscribe,
+.side .get-early-access {
   color: white;
   background-color: #216BFF;
   border: 1px solid #0A2E9C;
@@ -61,10 +62,17 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-.side .subscribe-btn:hover {
+.side .get-early-access {
+  background-color: #64B350;
+  border: 1px solid #508742;
+  box-shadow: 4px 4px 0 0 #508742;
+}
+.side .subscribe-btn:hover,
+.side .get-early-access:hover {
   text-decoration: none;
 }
-.side .subscribe-btn:visited {
+.side .subscribe-btn:visited,
+.side .get-early-access:visited {
   color: white;
 }
 .side #mce-EMAIL {
@@ -116,7 +124,8 @@ a {
   font-size: 44px;
 }
 .content .subscribe-btn,
-.content #mc-embedded-subscribe {
+.content #mc-embedded-subscribe,
+.content .get-early-access {
   color: white;
   background-color: #216BFF;
   border: 1px solid #0A2E9C;
@@ -124,6 +133,11 @@ a {
   padding: 14.4px 22.5px;
   font-size: 20px;
   text-decoration: none;
+}
+.content .get-early-access {
+  background-color: #64B350;
+  border: 1px solid #508742;
+  box-shadow: 4px 4px 0 0 #508742;
 }
 .content #mce-EMAIL {
   word-break: break-word;
