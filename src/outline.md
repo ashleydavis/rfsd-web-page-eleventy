@@ -10,7 +10,7 @@ NOTE: This outline will change during development of the book.
 
 # 1. Working **and** valuable
 
-<!-- todo: [Free to read online](/chapter-1)  -->
+[Chapter 1 is free to read online](/chapter-1) 
 
 Learn the theory and philosophy of rapid development. 
 
