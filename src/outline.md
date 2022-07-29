@@ -11,7 +11,7 @@ In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis
 - This outline will change during development of the book.
 - I'm not yet sure how TypeScript is going to fit in to this book yet. These are the options I'm considering:
   - Adding a bonus chapter that argues how TypeScript can improve your development process; or
-  - Later, issue a separate TypeScript version of the book where all code is presented as TypeScript instead of JavaScript.
+  - Later, issuing a separate TypeScript version of the book where all code is presented as TypeScript instead of JavaScript.
 
 Please give feedback to <a href="mailto://ashley@codecapers.com.au">ashley@codecapers.com.au</a>
 

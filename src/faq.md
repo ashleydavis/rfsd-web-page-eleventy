@@ -60,6 +60,36 @@ Three things:
 - My relentless search to find an efficient process for development that delivers working and valuable code; and
 - My experience writing books and coaching to help developers be more effective.
 
+## What does the book cover?
+
+The book covers development of the open source [Photosphere application](/example-application), a fullstack application with the following components:
+- A backend on Node.js (a monolith)
+- A browser-based frontend
+- Later, some basic microservices in the backend
+- Desktop and mobile applications built with web technologies (Electron and Iconic)
+- An automated test suite
+
+The example application though is really only a delivery vehicle for learning the mindset, techniques and tools for fast development, with the main of producing reliable and valuable code.
+
+See [the published book outline](/outline) for more details.
+
+## What language(s) does the book cover?
+
+The book definitely covers JavaScript: because it's a very practical language, not too difficult to learn and it's the lowest common denominator for true fullstack coding. 
+
+Personally I use TypeScript, so I also want to cover TypeScript through the book, although I'm not yet sure the best way to make that possible. Currently I'm considering these options:
+  - Adding a bonus chapter that argues how TypeScript can improve your development process; or
+  - Later, issuing a separate TypeScript version of the book where all code is presented as TypeScript instead of JavaScript.
+
+## Will the book teach me JavaScript or TypeScript?
+
+No
+
+The book is designed for developers who can already read JS/TS and get the gist of what's going on. If you are coming into JS/TS from another language you should have no problem reading the code.
+
+I do provide links to external learning resources so that you can learn JavaScript/TypeScript at the same time as reading Rapid Fullstack Development.
+
+
 ## What is the "early access program"?
 
 This is the period of time when you can buy the book early while it's still in development.
@@ -88,13 +118,19 @@ You get:
 
 Yes, you will get new chapters as they are released and the entire ebook when it is finished.
 
+## How many chapters will there be?
+
+I've committed to 9 chapters. But currently it seems there is at least enough for 10 chapters, unless I can figure out how to squeeze it all back into 9 chapters.
+
+I have various ideas and notes for bonus chapters, but I'm not committing to anything beyond 9 chapters at this point.
+
 ## How often will new chapters be released?
 
 New chapters will be released every 1-3 months. I'm working on this book in my spare time alongside multiple other projects. 
 
 Sometimes new chapters will come out quickly, othertimes not as quickly.
 
-## When will tbe book be completed?
+## When will the book be completed?
 
 The book will be completed in 2023 or 2024. It's difficult to say because it depends on the other commitments and obligations I have at any point in time.
 

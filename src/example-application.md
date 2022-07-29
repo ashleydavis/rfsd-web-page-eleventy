@@ -10,7 +10,7 @@ Good news. I've settled on the example application that we'll build in my new bo
 
 Most of the book will be very practical, showing you techniques, tools and process to become a more efficient developer. I'll be teaching through numerous working code examples and you can follow along to fully immerse yourself in the development process.
 
-Together we'll develop a complete working, and non-trivial, example application called Photosphere.
+Together we'll develop a complete working, and non-trivial, open source example application called Photosphere.
 
 Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book we’ll have a desktop and mobile application that can automatically find photos on our computer and phone and upload them for us. 
 
