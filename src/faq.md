@@ -8,6 +8,12 @@ layout: layouts/chapter.html
 
 Please email your questions to [ashley@codecapers.com.au](mailto:ashley@codecapers.com.au).
 
+## Can I pay with PayPal?
+
+Yes
+
+Send the money to ashley@codecapers.com.au and I'll email you the book.
+
 ## What will I learn?
 
 - Building a complex product through a series of simple steps.
