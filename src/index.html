@@ -111,7 +111,7 @@ layout: layouts/main.html
     </div>
 </section>
 
-<section class="ml-4 mr-4 p-4 pt-16 sm:rounded-b-sm">
+<section id="recent-news" class="ml-4 mr-4 p-4 pt-16 sm:rounded-b-sm">
     <div class="heading text-3xl text-bold pb-6">
         Recent News
     </div>
@@ -119,7 +119,27 @@ layout: layouts/main.html
     <div class="text-base">
 
         <div class="mb-6">
-            <p>
+            <p class="text-xl">
+                The next
+                <a href="https://www.twitch.tv/ashleydavis/about">
+                    coding live stream has been scheduled!
+                </a>
+            </p>
+            <iframe src="https://www.twitch.tv/popout/ashleydavis/extensions/naty2zwfp7vecaivuve8ef1hohh6bo/panel"></iframe>
+            </div>
+            <p class="mt-2">
+                Working towards the next chapters in Rapid Fullstack Development, we'll cover:                
+            </p>
+            <ul class="mt-1">
+                <li>Rapid prototyping to figure out how to build a photo /video gallery;</li>
+                <li>Using test driven development to create a custom gallery layout algorithm; and</li>
+                <li>Building the frontend for Photosphere for the user to view their gallery and upload photos and videos.</li>
+            </ul>
+        </div>
+
+
+        <div class="mb-6">
+            <p class="text-xl">
                 <a href="https://codecapers.gumroad.com/l/rapid-fullstack-development">
                     The early access program
                 </a>
@@ -132,24 +152,24 @@ layout: layouts/main.html
         </div>
 
 
-        <p>
+        <p class="text-xl">
             Development of the <a href="/example-application">Photosphere</a> Node.js backend has been live streamed on Twitch!
-
-            <ul class="pl-10 mb-6">
-                <li>
-                    The 
-                    <a target="_blank" href="https://www.youtube.com/playlist?list=PLQrB0_KjTmHgIsiYYOzAUnH2aA5MtOewI">
-                        recording is on YouTube.
-                    </a>
-                </li>
-                <li>
-                    The
-                    <a target="_blank" href="https://github.com/Rapid-Fullstack-Development/photosphere-monolithic-backend-livestream">
-                        code is on GitHub.
-                    </a>
-                </li>
-            </ul>
         </p>
+
+        <ul class="mt-1 pl-10 mb-6">
+            <li>
+                The 
+                <a target="_blank" href="https://www.youtube.com/playlist?list=PLQrB0_KjTmHgIsiYYOzAUnH2aA5MtOewI">
+                    recording is on YouTube.
+                </a>
+            </li>
+            <li>
+                The
+                <a target="_blank" href="https://github.com/Rapid-Fullstack-Development/photosphere-monolithic-backend-livestream">
+                    code is on GitHub.
+                </a>
+            </li>
+        </ul>
 
         <p class="mb-6">
             A new and revised version of my talk Rapid Fullstack Development was live streamed for Manning and is 
