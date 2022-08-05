@@ -8,11 +8,15 @@ layout: layouts/chapter.html
 
 Please email your questions to [ashley@codecapers.com.au](mailto:ashley@codecapers.com.au).
 
-## Can I pay with PayPal?
+## How do I buy the book?
+
+You can join the [early access program for Rapid Fullstack Development through Gumroad](https://codecapers.gumroad.com/l/rapid-fullstack-development).
+
+## Is there another way to buy the book?
 
 Yes
 
-Send the money to ashley@codecapers.com.au and I'll email you the book.
+Use PayPal to send $9 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
 
 ## What will I learn?
 
