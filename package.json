@@ -18,5 +18,8 @@
         "less": "^4.1.2",
         "less-watch-compiler": "^1.16.3",
         "tailwindcss": "2.2.16"
+    },
+    "dependencies": {
+        "markdown-it-image-figures": "^2.1.0"
     }
 }

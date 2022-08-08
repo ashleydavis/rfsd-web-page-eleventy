@@ -251,3 +251,23 @@ a {
     padding-bottom: 150px;
   }
 }
+figure {
+  cursor: zoom-in;
+}
+figure.zoomed {
+  cursor: zoom-out;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figure.zoomed img {
+  background-color: white;
+  max-height: 90vh;
+}
