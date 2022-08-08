@@ -199,3 +199,29 @@ a {
     padding-bottom: 150px;
   }
 }
+.click-zoom input[type=checkbox] {
+  display: none;
+}
+.click-zoom .img-wrapper {
+  cursor: zoom-in;
+}
+.click-zoom img {
+  max-height: 15rem;
+}
+.click-zoom input[type=checkbox]:checked ~ .img-wrapper {
+  cursor: zoom-out;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.click-zoom input[type=checkbox]:checked ~ .img-wrapper img {
+  background-color: white;
+  max-height: 90vh;
+}
