@@ -79,7 +79,7 @@ The book covers development of the open source [Photosphere application](/exampl
 - Desktop and mobile applications built with web technologies (Electron and Iconic)
 - An automated test suite
 
-The example application though is really only a delivery vehicle for learning the mindset, techniques and tools for fast development, with the main of producing reliable and valuable code.
+The example application though is really only a delivery vehicle for learning the mindset, techniques and tools for fast development, with the main goal of producing reliable and valuable code.
 
 See [the published book outline](/outline) for more details.
 
