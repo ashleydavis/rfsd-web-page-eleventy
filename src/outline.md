@@ -35,36 +35,39 @@ We start coding from nothing, and then code and test Photosphere's Node.js REST 
 
 Learn techniques for rapid iterations of coding with fast feedback, refactoring to let an elegant design emerge by itself and testing to make sure our code works.
 
-# 3. The twisted path of development
+# 3. The other side of the equation
  
 ## Frontend development
 
 Next we build the frontend for Photosphere. 
 
-We'll start with nothing and construct a browser-based user interface from the ground up.
+We'll start with nothing and construct a browser-based user interface from the ground up. Along the way we'll learn how we can bring forth an elegant design through continuous refactoring of our code.
 
-Development is rarely a straightline from start to product and in this chapter we explore the dynamic and ever changing nature of the development process.
 
 Learn techniques for building and testing a frontend and connecting it to the backend. We'll quickly build out our frontend using live reload for fast feedback and refactor as we go to let clean code emerge on it's own.
 
 ### Notes
 
-- Previously named: The other side of the equation
+- Previously named: The twisted path of development
 
-# 4. Throwing out the rule book
+# 4. The twisted path of development
 
-## Planning and prototyping
+## Planning, prototyping and navigating the changing path of development
 
-In this chapter we explore the iterative and evolutionary planning process we must engage in as we navigate the uncertain path towards a new product. 
+Development is rarely a straightline from start to product and in this chapter we explore the the iterative and evolutionary planning process we must engage in as we navigate the uncertain path building a new product. 
 
-We'll explore the prototypes created before development of Photosphere started and see how prototypes can be used to resolve ambiguity, reduce uncertainy and mitigate risk for our software projects.
+Understand how prototyping, planning and estimation fit together to answer questions, improve our understanding of what we are building and help set the direction of development. 
+
+Learn how to continuous reassessment,  replanning and restimation help us make the right course corrections thorugh our development journey.
+
+We'll explore the prototypes created before development of Photosphere started and see how we can prototypes to resolve ambiguity, reduce uncertainy and mitigate risk for our software projects.
 
 ### Notes
 
 - A new chapter on Planning and prototyping.
+- Previously named: Throwing out the rule book
 
-
-# 5. Your own personal testing robot 
+# 6. Your own personal testing robot 
 
 ## Automated testing
 
@@ -76,12 +79,16 @@ Learn how to create automated tests, how TDD can make you a better developer and
 
 - A new chapter just on automated testing, focusing on test driven development (TDD).
 - The previous incarnation of this chapter was going to be more generally about testing, but I may now have enough content to justify an enitire chapter on automated testing. I may later add a chapter on general testing, I might still wrap that up into this chapter or I might include more on testing in the debugging and problem solving chapter.
-
+- Still want to find a home for these topics:
+  - Stress testing the photo gallery with 1k photos
+  - Testing the backend with Supertest
+  - Manual TDD
+  - Output driven testing
+  - Cypress ?
 
 # 6. Growing pains
 
 ## Scaling up
-
 
 Now we scale up our development process to handle a backend with multiple services. 
 
@@ -123,7 +130,9 @@ We extend our development process and build desktop and mobile applications for 
 
 Next we revisit the tools, techniques and development process we have learned so far, while taking a tour of the completed Photosphere application.
 
-We'll also see the basics of what's required in the future to take this application to production.
+We'll also add some basic styling to our application, just enough to get by. Covering Less and Tailwind.
+
+Finally we'll learn the basics of what's required in the future to take this application to production.
 
 ### Notes
 
