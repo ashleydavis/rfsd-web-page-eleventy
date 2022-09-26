@@ -82,6 +82,8 @@ Learn how to create automated tests, how TDD can make you a better developer and
 - Still want to find a home for these topics:
   - Stress testing the photo gallery with 1k photos
   - Testing the backend with Supertest
+  - Mocking the backend with test data
+  - Mocking the backend with mock-api
   - Manual TDD
   - Output driven testing
   - Cypress ?
