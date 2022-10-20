@@ -67,7 +67,7 @@ We'll explore the prototypes created before development of Photosphere started a
 - A new chapter on Planning and prototyping.
 - Previously named: Throwing out the rule book
 
-# 6. Your own personal testing robot 
+# 5. Your own personal testing robot 
 
 ## Automated testing
 
