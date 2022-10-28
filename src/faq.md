@@ -21,7 +21,7 @@ Use PayPal to send $9 AUD or more to ashley@codecapers.com.au, then I'll email y
 ## What will I learn?
 
 - Building a complex product through a series of simple steps.
-- Creating habits and a development process geared for a rapid pace.
+- Creating a foundation, habits and development process that are geared for a rapid pace.
 - Techniques that produce reliable and valuable code.
 - Using live reload across the stack for fast feedback.
 - Capturing working code into version control (aka Git).
@@ -118,7 +118,7 @@ The retail price for ebooks of this nature is around $30 USD.
 
 You get:
 - A massive 80% discount 
-- The chapters currently released (ebook format)
+- The chapters currently released (e-formats: pdf and epub)
 - Review drafts for new chapters in Google Docs
 - New chapters as they are released (ebook format)
 - To work with the author, give feedback and influence the direction of the book
@@ -146,7 +146,7 @@ The book will be completed in 2023 or 2024. It's difficult to say because it dep
 
 ## What formats are supported for the ebook?
 
-At the moment only pdf, but mobi and epub are planned for later.
+At the moment the book is release in pdf and epub formats.
 
 ## Will the book be printed?
 
