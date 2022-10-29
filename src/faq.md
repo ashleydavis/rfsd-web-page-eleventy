@@ -146,7 +146,7 @@ The book will be completed in 2023 or 2024. It's difficult to say because it dep
 
 ## What formats are supported for the ebook?
 
-At the moment the book is release in pdf and epub formats.
+At the moment the book is released in pdf and epub formats.
 
 ## Will the book be printed?
 
