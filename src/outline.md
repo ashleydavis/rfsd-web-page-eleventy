@@ -9,9 +9,8 @@ In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis
 ### Notes
 
 - This outline will change during development of the book.
-- I'm not yet sure how TypeScript is going to fit in to this book yet. These are the options I'm considering:
-  - Adding a bonus chapter that argues how TypeScript can improve your development process; or
-  - Later, issuing a separate TypeScript version of the book where all code is presented as TypeScript instead of JavaScript.
+- I've decided to include TypeScript in the book through chapter 6 "Just ship it!". I have good reason to convert to TypeScript at this point in the book so it's a good excuse to introduce it and how it can help your development process.
+- The scaling chapter is gone! I've decided this book mostly isn't about scaling the product. Due to certain design decisions I've made for Photosphere (which will be full explained in chapter 6) the "Scaling up" chapter doesn't feel relevant any more. Of course, I've already written about performance and scaling in my book [Bootstrapping Microservices](https://www.bootstrapping-microservices.com/) if you want to learn more about that.
 
 Please give feedback to <a href="mailto://ashley@codecapers.com.au">ashley@codecapers.com.au</a>
 
@@ -46,10 +45,6 @@ We'll start with nothing and construct a browser-based user interface from the g
 
 Learn techniques for building and testing a frontend and connecting it to the backend. We'll quickly build out our frontend using live reload for fast feedback and refactor as we go to let clean code emerge on it's own.
 
-### Notes
-
-- Previously named: The twisted path of development
-
 # 4. The twisted path of development
 
 ## Planning, prototyping and navigating the changing path of development
@@ -62,11 +57,6 @@ Learn how to continuous reassessment,  replanning and restimation help us make t
 
 We'll explore the prototypes created before development of Photosphere started and see how we can prototypes to resolve ambiguity, reduce uncertainy and mitigate risk for our software projects.
 
-### Notes
-
-- A new chapter on Planning and prototyping.
-- Previously named: Throwing out the rule book
-
 # 5. Your own personal testing robot 
 
 ## Automated testing
@@ -77,8 +67,6 @@ Learn how to create automated tests, how TDD can make you a better developer and
 
 ### Notes
 
-- A new chapter just on automated testing, focusing on test driven development (TDD).
-- The previous incarnation of this chapter was going to be more generally about testing, but I may now have enough content to justify an enitire chapter on automated testing. I may later add a chapter on general testing, I might still wrap that up into this chapter or I might include more on testing in the debugging and problem solving chapter.
 - Still want to find a home for these topics:
   - Stress testing the photo gallery with 1k photos
   - Testing the backend with Supertest
@@ -86,31 +74,30 @@ Learn how to create automated tests, how TDD can make you a better developer and
   - Mocking the backend with mock-api
   - Manual TDD
   - Output driven testing
-  - Cypress ?
+  - Playwright ?
 
-# 6. Growing pains
+# 6. Just ship it!
 
-## Scaling up
+## Finishing the example application
 
-Now we scale up our development process to handle a backend with multiple services. 
+Now we take Photosphere to production!
 
-We'll add some microservices to Photosphere, but the techniques presented in this chapter aren't just for microservices. Using Docker Compose we'll create a convenient setup for fast development and testing of our fullstack application, including the integration of a database (or other services).
+Along the way we'll create a monorepo, convert our code to TypeScript.
 
-Learn how to scale our application to support a development team. Discuss mono-repos vs meta-repos, when to publish a package and how to share code between our projects.
+We'll also revisit refactoring, update our code to upload multiple photos at once, and finally we'll implement pagination.
 
-### Notes
-
-- Was previously chapter 4.
-
+We'll also make a surprising design decision. It suprised even me!
+  
 # 7. Being the detective
 
-## Debugging and problem solving
+## Debugging, problem solving and preventing bugs
 
 Learn strategy and techniques for merciless bug hunting and effective problem solving with real examples from the Photosphere application.
 
+We'll also learn numerous techniques to help us find and fix bugs during development, because it's much cheaper and more effective to fix bugs before they get to production.
+
 ### Notes
 
-- Was previously chapter 5.
 - I may expand on (manual) testing techniques here if I can fit it.
 
 # 8. We are not in Kansas anymore
@@ -121,27 +108,7 @@ Now we go beyond fullstack!
 
 We extend our development process and build desktop and mobile applications for Photosphere.
 
-### Notes
-
-- Was previously chapter 7.
-- Previously named: Beyond the stack
-
-# 9. Just ship it!
-
-## A tour of the example application
-
-Next we revisit the tools, techniques and development process we have learned so far, while taking a tour of the completed Photosphere application.
-
-We'll also add some basic styling to our application, just enough to get by. Covering Less and Tailwind.
-
-Finally we'll learn the basics of what's required in the future to take this application to production.
-
-### Notes
-
-- Was previously chapter 8.
-- Previously named: Photosphere walkthrough
-
-# 10. Mindset is a starting point
+# 9. Mindset is a starting point
 
 ## Scaling yourself
 
@@ -149,6 +116,3 @@ We wrap up the book with an exploration of how to take your own learning as a de
 
 Learn strategies to be better at learning and accelerate your experience.
 
-### Notes
-
-- Was previously chapter 9.

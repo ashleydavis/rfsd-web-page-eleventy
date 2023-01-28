@@ -12,17 +12,13 @@ Together we'll develop a complete working, and non-trivial, open source example 
 
 Photosphere is a photo backup and search tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book we’ll have a desktop and mobile application that can automatically find photos on our computer and phone and upload them for us. 
 
-![Version 1 of Photosphere is a simple fullstack monolithic application](/assets/images/chapter-1/1_5-photosphere-example-app.png)
+![Photosphere is a simple fullstack monolithic application](/assets/images/chapter-1/1_5-photosphere-example-app.png)
 ### Version 1 of Photosphere is a simple fullstack monolithic application
-
-![Version 2 of Photosphere is upgraded to using microservices](/assets/images/chapter-1/1_6-photosphere-example-app.png)
-### Version 2 of Photosphere is upgraded to using microservices
 
 Ultimately we'll go beyond fullstack and extend Photosphere to have a desktop application implemented with Electron and a mobile application implemented with Ionic/Capacitor. All frontends will share code and the same backend. 
 
 ![Version 3 of Photosphere goes beyond fullstack](/assets/images/chapter-1/1_7-photosphere-example-app.png)
 ### Version 3 of Photosphere goes beyond fullstack
-
 
 I'm building the Photosphere application as I write the book and I'm even livestreaming the coding ([see YouTube for recordings](https://www.youtube.com/playlist?list=PLQrB0_KjTmHgIsiYYOzAUnH2aA5MtOewI)).
 

@@ -16,7 +16,7 @@ You can join the [early access program for Rapid Fullstack Development through G
 
 Yes
 
-Use PayPal to send $9 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
+Use PayPal to send $11 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
 
 ## What will I learn?
 
@@ -30,7 +30,7 @@ Use PayPal to send $9 AUD or more to ashley@codecapers.com.au, then I'll email y
 - Using JavaScript/TypeScript across and beyond the stack, covering:
   - Backend with Node.js
   - Frontend (in the browser)
-  - Microservices (just the basics!)
+  - Deployment to production
   - Desktop applications with Electron
   - Mobile applications with Iconic
 
@@ -75,7 +75,7 @@ Three things:
 The book covers development of the open source [Photosphere application](/example-application), a fullstack application with the following components:
 - A backend on Node.js (a monolith)
 - A browser-based frontend
-- Later, some basic microservices in the backend
+- Production deployment
 - Desktop and mobile applications built with web technologies (Electron and Iconic)
 - An automated test suite
 
@@ -85,11 +85,11 @@ See [the published book outline](/outline) for more details.
 
 ## What language(s) does the book cover?
 
-The book definitely covers JavaScript: because it's a very practical language, not too difficult to learn and it's the lowest common denominator for true fullstack coding. 
+The book covers JavaScript and later TypeScript.
 
-Personally I use TypeScript, so I also want to cover TypeScript through the book, although I'm not yet sure the best way to make that possible. Currently I'm considering these options:
-  - Adding a bonus chapter that argues how TypeScript can improve your development process; or
-  - Later, issuing a separate TypeScript version of the book where all code is presented as TypeScript instead of JavaScript.
+JavaScript, because it's a very practical language, not too difficult to learn and it's the lowest common denominator for true fullstack coding. 
+
+Then TypeScript, because it helps us keep our code working through repeated evolution and refactoring.
 
 ## Will the book teach me JavaScript or TypeScript?
 
@@ -108,7 +108,7 @@ This gives you a chance to buy the book at a discount, support the author and be
 
 ## How much is early access?
 
-Early access is set at $9 AUD (approx $6 USD). That's a massive 80% off the final price for getting onboard early in the book's development.
+Early access is set at $11 AUD (approx $7.87 USD). That's a massive discount off the final price for getting onboard early in the book's development.
 
 ## How much will the completed book be?
 
@@ -117,7 +117,7 @@ The retail price for ebooks of this nature is around $30 USD.
 ## What do I get with the early access program?
 
 You get:
-- A massive 80% discount 
+- A massive discount 
 - The chapters currently released (e-formats: pdf and epub)
 - Review drafts for new chapters in Google Docs
 - New chapters as they are released (ebook format)
@@ -130,9 +130,7 @@ Yes, you will get new chapters as they are released and the entire ebook when it
 
 ## How many chapters will there be?
 
-I've committed to 9 chapters. But currently it seems there is at least enough for 10 chapters, unless I can figure out how to squeeze it all back into 9 chapters.
-
-I have various ideas and notes for bonus chapters, but I'm not committing to anything beyond 9 chapters at this point.
+It's hard to say exactly... but I'm aiming at 9 chapters. Although the end result might be 8 chapters or it might be 10.
 
 ## How often will new chapters be released?
 
