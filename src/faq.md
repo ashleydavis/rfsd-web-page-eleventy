@@ -16,7 +16,7 @@ You can join the [early access program for Rapid Fullstack Development through G
 
 Yes
 
-Use PayPal to send $11 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
+Use PayPal to send $14 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
 
 ## What will I learn?
 
