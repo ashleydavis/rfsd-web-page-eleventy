@@ -16,7 +16,7 @@ You can join the [early access program for Rapid Fullstack Development through G
 
 Yes
 
-Use PayPal to send $14 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
+Use PayPal to send $16 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
 
 ## What will I learn?
 
@@ -108,7 +108,7 @@ This gives you a chance to buy the book at a discount, support the author and be
 
 ## How much is early access?
 
-Early access is set at $14 AUD (approx $9.68 USD). That's a massive discount off the final price for getting onboard early in the book's development.
+Early access is set at $16 AUD (approx $10.82 USD). That's a massive discount off the final price for getting onboard early in the book's development.
 
 ## How much will the completed book be?
 
