@@ -1,8 +1,16 @@
+body {
+    background-color: #F9F9F9;
+    color: #216BFF;
+}
+
+.w-nav {
+    background-color: #F9F9F9;
+}
+
 .new-page {
   width: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -13,7 +21,6 @@
   width: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
   justify-content: center;
   align-items: flex-start;
   padding-left: 24px;
@@ -79,7 +86,6 @@
 }
 
 .text {
-  color: #000;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
@@ -506,7 +512,6 @@
   width: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -517,7 +522,6 @@
   width: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
   justify-content: center;
   align-items: flex-start;
   padding-left: 24px;
@@ -621,7 +625,6 @@
   width: 100%;
   grid-column-gap: 80px;
   grid-row-gap: 80px;
-  background-color: #fff;
   justify-content: center;
   align-items: flex-start;
   padding: 64px 24px;
@@ -649,7 +652,7 @@
 }
 
 .title-copy-goes-here-be-awesome {
-  color: #000;
+  color: #216BFF;
   font-size: 56px;
   font-weight: 700;
   line-height: 120%;
@@ -668,7 +671,7 @@
 .button-6 {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  background-color: #000;
+  background-color: #216BFF;
   flex: 0 auto;
   justify-content: center;
   align-items: center;
@@ -710,7 +713,6 @@
   width: 100%;
   grid-column-gap: 80px;
   grid-row-gap: 80px;
-  background-color: #fff;
   justify-content: center;
   align-items: flex-start;
   padding: 64px 24px;
@@ -721,7 +723,6 @@
   width: 100%;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  background-color: #fff;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -751,13 +752,16 @@
   width: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
-  border: 1px solid #e4ebf3;
+  border: 1px solid #E0E0E0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 24px;
   display: flex;
+}
+
+.quote > .text-14 {
+  min-height: 10em;
 }
 
 .quote {
@@ -774,7 +778,7 @@
   width: 100%;
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  background-color: #f5f7fa;
+  background-color: #EDEDED;
   justify-content: flex-start;
   align-items: center;
   padding: 24px 16px;
@@ -813,7 +817,6 @@
   width: 100%;
   grid-column-gap: 80px;
   grid-row-gap: 80px;
-  background-color: #fff;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -846,7 +849,7 @@
 }
 
 .text-17 {
-  color: #000;
+  color: #216BFF;
   text-align: center;
   font-size: 48px;
   font-weight: 700;
@@ -939,7 +942,6 @@
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   color: #979797;
-  background-color: #fff;
   border: 1px solid #000;
   justify-content: flex-start;
   align-items: flex-start;
