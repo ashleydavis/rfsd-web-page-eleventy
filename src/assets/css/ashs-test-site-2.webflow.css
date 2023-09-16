@@ -1,5 +1,6 @@
 body {
     background-color: #F9F9F9;
+    font-family: Crimson, Georgia, serif;
 }
 
 .w-nav {
@@ -654,12 +655,19 @@ body {
     display: flex;
 }
 
-.title-copy-goes-here-be-awesome {
+.title {
     color: #216BFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 120%;
 }
+
+@media screen and (max-width: 479px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
 
 .actions-4 {
     grid-column-gap: 16px;
@@ -742,14 +750,6 @@ body {
     align-items: center;
     padding: 64px 24px;
     display: flex;
-}
-
-.title {
-    color: #000;
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 120%;
 }
 
 .columns {
@@ -1232,5 +1232,5 @@ body {
     height: 50px;
     margin-top: 10px;
     margin-bottom: 0;
-    min-width: 400px;
+    min-width: 300px;
 }
