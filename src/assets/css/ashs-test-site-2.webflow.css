@@ -583,6 +583,7 @@ body {
     align-items: flex-start;
     padding: 24px 12px;
     display: flex;
+    text-decoration: none;
 }
 
 .text-14 {
@@ -601,6 +602,7 @@ body {
     align-items: flex-start;
     padding: 24px 12px;
     display: flex;
+    text-decoration: none;
 }
 
 .navbar-button-2 {
@@ -702,6 +704,17 @@ body {
 
 .image-2 {
     width: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-profile {
+    width: 100%;
+    max-width: 400px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     object-fit: cover;
@@ -1198,6 +1211,7 @@ body {
     background-color: #64B350;
     border: 1px solid #508742;
     box-shadow: 4px 4px 0 0 #508742;
+    display: inline-block;
 }
 
 #mce-EMAIL {
