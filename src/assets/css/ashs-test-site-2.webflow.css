@@ -857,9 +857,9 @@ body {
     line-height: 120%;
 }
 
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique {
+.news-item {
     color: #212121;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
@@ -1001,7 +1001,6 @@ body {
     width: 100%;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
-    background-color: #f5f7fa;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -1103,7 +1102,7 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
-    box-shadow: 0 -1px #e4ebf3;
+    box-shadow: 0 -1px gray;
 }
 
 .text-22 {
