@@ -82,7 +82,7 @@ Learn how to create automated tests, how TDD can make you a better developer and
 
 Now we take Photosphere to production!
 
-Along the way we'll create a monorepo, convert our code to TypeScript.
+Along the way we'll create a monorepo and convert our code to TypeScript.
 
 We'll also revisit refactoring, update our code to upload multiple photos at once, and finally we'll implement pagination.
 
