@@ -457,25 +457,17 @@ In chapter 4 we'll explore the planning and prototyping that led to the developm
 
 In chapter 5 we'll talk about testing and work through the test driven development (TDD) process that created Photosphere's photo gallery layout algorithm.
 
-In chapter 4 we upgrade the Photosphere backend to support microservices.  This is illustrated in figure 1.7.
-
-Photosphere may seem too simple to require microservices, but trust me I’ll make a good case for it in chapter 6, were we'll look at scaling for performance and scaling for the dev team.
+In chapter 6 we'll talk about how to choose the right solutions to problems through the development process. W3e'll also deploy Photosphere to production..
 
 In chapter 7 we'll learn how to be more effective at debugging and problem solving.
 
 In chapter 8 we’ll take our first steps beyond fullstack and extend Photosphere with a desktop application implemented with Electron and a mobile application implemented with Ionic. All frontends will share the same backend as illustrated in figure 1.7.
 
-Chapter 9 is a walkthrough of the completed Photosphere application and a recap of the rapid development techniques that helped us create it quickly. Here we'll also cover the basics of taking Photosphere to production.
+In Chapter 9 we'll tackle software design and architecture. Finishing up with some strategies for your ongoing learning and continuous growth as a developer.
 
-In Chapter 10 we’ll finish up by talking about your path forward as a developer: how to create strategies for your ongoing learning and continuous growth.
+![Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](/assets/images/chapter-1/1-7-photosphere-with-multiple-frontends.png "Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
 
-![Figure 1.7:  The Photosphere example application with the slightly more complex microservices backend](/assets/images/chapter-1/1-7-photosphere-with-microservices.png "Figure 1.7:  The Photosphere example application with the slightly more complex microservices backend")
-
-#### Figure 1.7:  The Photosphere example application with the slightly more complex microservices backend
-
-![Figure 1.8:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](/assets/images/chapter-1/1-8-photosphere-with-multiple-frontends.png "Figure 1.8:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
-
-#### Figure 1.8:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends
+#### Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends
 
 # Summary
 
