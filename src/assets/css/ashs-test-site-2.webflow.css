@@ -778,6 +778,13 @@ body {
     min-height: 10em;
 }
 
+@media screen and (max-width: 767px) {
+    .quote>.text-14 {
+        min-height: 1em;
+    }
+}
+
+
 .quote {
     width: 100%;
     grid-column-gap: 52px;
