@@ -28,7 +28,7 @@ What it is? Why do we need it? And, how it can help you be a faster developer.
 
 ## Backend development
 
-First up, we build the backend for the [Photosphere example application](/example-application).
+First up, we build the backend for the Photosphere example application.
 
 We start coding from nothing, and then code and test Photosphere's Node.js REST API. 
 
