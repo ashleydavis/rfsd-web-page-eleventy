@@ -16,7 +16,7 @@ You can join the [early access program for Rapid Fullstack Development through G
 
 Yes
 
-Use PayPal to send $16 AUD or more to ashley@codecapers.com.au, then I'll email you the book.
+Use PayPal to send $20 AUD (approx. $13 USD) or more to ashley@codecapers.com.au, then I'll email you the book.
 
 ## What will I learn?
 
@@ -72,7 +72,7 @@ Three things:
 
 ## What does the book cover?
 
-The book covers development of the open source [Photosphere application](/example-application), a fullstack application with the following components:
+The book covers development of the open source Photosphere application, a fullstack application with the following components:
 - A backend on Node.js (a monolith)
 - A browser-based frontend
 - Production deployment
@@ -140,7 +140,7 @@ Sometimes new chapters will come out quickly, othertimes not as quickly.
 
 ## When will the book be completed?
 
-The book will be completed in 2023 or 2024. It's difficult to say because it depends on the other commitments and obligations I have at any point in time.
+The book will be completed in 2024. It's difficult to say exactly, because it depends on the other commitments and obligations I have at any point in time.
 
 ## What formats are supported for the ebook?
 
