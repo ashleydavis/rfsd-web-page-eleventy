@@ -1,5 +1,5 @@
 ---
-layout: layouts/chapter.html
+layout: layouts/chapter-1.html
 ---
 
 <h1 id="chapter-1" class="chapter-heading">
