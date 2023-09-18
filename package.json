@@ -3,7 +3,7 @@
     "description": "The web page for Rapid Fullstack Development",
     "scripts": {
         "serve": "npx @11ty/eleventy --serve",
-        "start": "concurrently \"npm run build-styles:watch\" \"npm run serve\"",
+        "start": "npm run serve",
         "build": "npx @11ty/eleventy",
         "build-styles:watch": "less-watch-compiler src/styles src/assets/css",
         "build-tailwind": "tailwind build src/tailwind.css -o src/assets/css/tailwind.css"
