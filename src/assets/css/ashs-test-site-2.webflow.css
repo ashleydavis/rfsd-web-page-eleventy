@@ -30,7 +30,7 @@ body {
 
 .navbarcontainer {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
 
 .navbar-content {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -211,7 +211,7 @@ body {
 
 .header {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1000px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     background-color: #fff;
@@ -362,7 +362,7 @@ body {
 
 .container-3 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     justify-content: flex-start;
@@ -390,6 +390,13 @@ body {
 .text-10 {
     color: #212121;
     font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text-10a {
+    color: #212121;
+    font-size: 19px;
     font-weight: 400;
     line-height: 150%;
 }
@@ -454,7 +461,7 @@ body {
 
 .container-4 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     justify-content: flex-start;
@@ -531,7 +538,7 @@ body {
 
 .navbarcontainer-2 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
@@ -541,7 +548,7 @@ body {
 
 .navbar-content-2 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -637,7 +644,7 @@ body {
 
 .container-5 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     justify-content: flex-start;
@@ -668,6 +675,18 @@ body {
     }
 }
 
+.sub-title {
+    color: #216BFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 479px) {
+    .sub-title {
+        font-size: 30px;
+    }
+}
 
 .actions-4 {
     grid-column-gap: 16px;
@@ -899,7 +918,7 @@ body {
 
 .container-6 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     flex-direction: column;
