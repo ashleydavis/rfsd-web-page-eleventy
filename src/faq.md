@@ -1,5 +1,5 @@
 ---
-layout: layouts/chapter.html
+layout: layouts/chapter-1.html
 ---
 
 # Frequently asked questions

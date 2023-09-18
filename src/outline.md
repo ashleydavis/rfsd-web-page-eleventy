@@ -1,12 +1,12 @@
 ---
-layout: layouts/outline.html
+layout: layouts/chapter-1.html
 ---
 
 # Book outline
 
 In this new book from <a href="https://www.codecapers.com.au/about">Ashley Davis</a>, learn the tricks of the trade for writing <em>reliable</em> and <em>valuable</em> code, <strong>quickly</strong>.
 
-### Notes
+## Notes
 
 - This outline will change during development of the book.
 - I've decided to include TypeScript in the book through chapter 6 "Just ship it!". I have good reason to convert to TypeScript at this point in the book so it's a good excuse to introduce it and how it can help your development process.
@@ -16,7 +16,7 @@ Please give feedback to <a href="mailto://ashley@codecapers.com.au">ashley@codec
 
 # 1. Working **and** valuable
 
-## The theory of rapid development
+### The theory of rapid development
 
 Learn the theory and philosophy of rapid development. 
 
@@ -26,7 +26,7 @@ What it is? Why do we need it? And, how it can help you be a faster developer.
 
 # 2. From little things, big things grow
 
-## Backend development
+### Backend development
 
 First up, we build the backend for the Photosphere example application.
 
@@ -36,7 +36,7 @@ Learn techniques for rapid iterations of coding with fast feedback, refactoring 
 
 # 3. The other side of the equation
  
-## Frontend development
+### Frontend development
 
 Next we build the frontend for Photosphere. 
 
@@ -47,7 +47,7 @@ Learn techniques for building and testing a frontend and connecting it to the ba
 
 # 4. The twisted path of development
 
-## Planning, prototyping and navigating the changing path of development
+### Planning, prototyping and navigating the changing path of development
 
 Development is rarely a straightline from start to product and in this chapter we explore the the iterative and evolutionary planning process we must engage in as we navigate the uncertain path building a new product. 
 
@@ -59,7 +59,7 @@ We'll explore the prototypes created before development of Photosphere started a
 
 # 5. Your own personal testing robot 
 
-## Automated testing
+### Automated testing
 
 In this chapter we use test driven development (TDD) to build the gallery layout algorithm for the Photosphere frontend.
 
@@ -78,7 +78,7 @@ Learn how to create automated tests, how TDD can make you a better developer and
 
 # 6. Just ship it!
 
-## Finishing the example application
+### Finishing the example application
 
 Now we take Photosphere to production!
 
@@ -90,7 +90,7 @@ We'll also make a surprising design decision. It suprised even me!
   
 # 7. Being the detective
 
-## Debugging, problem solving and preventing bugs
+### Debugging, problem solving and preventing bugs
 
 Learn strategy and techniques for merciless bug hunting and effective problem solving with real examples from the Photosphere application.
 
@@ -102,7 +102,7 @@ We'll also learn numerous techniques to help us find and fix bugs during develop
 
 # 8. We are not in Kansas anymore
 
-## Beyond the stack: Desktop and mobile apps with JavaScript
+### Beyond the stack: Desktop and mobile apps with JavaScript
 
 Now we go beyond fullstack! 
 
@@ -110,7 +110,7 @@ We extend our development process and build desktop and mobile applications for 
 
 # 9. Mindset is a starting point
 
-## Scaling yourself
+### Scaling yourself
 
 We wrap up the book with an exploration of how to take your own learning as a developer to the next level. 
 
