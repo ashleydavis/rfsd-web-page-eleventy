@@ -108,7 +108,7 @@ This gives you a chance to buy the book at a discount, support the author and be
 
 ## How much is early access?
 
-Early access is set at $16 AUD (approx $10.82 USD). That's a massive discount off the final price for getting onboard early in the book's development.
+Early access is set set at the discounted price of $20 AUD (aprrox $13 USD). That's a massive discount off the final price for getting onboard early in the book's development.
 
 ## How much will the completed book be?
 
@@ -117,11 +117,11 @@ The retail price for ebooks of this nature is around $30 USD.
 ## What do I get with the early access program?
 
 You get:
-- A massive discount 
-- The chapters currently released (e-formats: pdf and epub)
-- Review drafts for new chapters in Google Docs
-- New chapters as they are released (ebook format)
-- To work with the author, give feedback and influence the direction of the book
+- A discount to say thank you for being an earlier supporter.
+- The chapters currently released (e-formats: pdf and epub).
+- Review drafts for new chapters in Google Docs.
+- New chapters as they are released (ebook format).
+- To work with the author, give feedback and influence the direction of the book.
 - A good feeling for supporting the author to write this self-published book ;)
 
 ## If I buy the book in early access, will I later get the completed book?
