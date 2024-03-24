@@ -3,6 +3,7 @@ const implicitFigures = require('markdown-it-image-figures');
 
 module.exports = function (eleventyConfig) {
 
+    eleventyConfig.addPassthroughCopy('src/preview.jpg');
     eleventyConfig.addPassthroughCopy('src/assets');
 
     let options = {
