@@ -433,9 +433,9 @@ Through this book we'll create a development process that implements our philoso
 
 While this first chapter has been theoretical, the rest of the book is mostly practical, with some theory interspersed. Here’s a taste of what’s coming up.
 
-You can follow along with the coding and together we’ll build a fullstack application while applying the philosophy of rapid development. There’ll be plenty of simple examples, but we are also working towards a non-trivial example application called _Photosphere_. You can see what the frontend will look like in figure 1.5.
+You can follow along with the coding and together we’ll build a fullstack application while applying the philosophy of rapid development. There’ll be plenty of simple examples, but we are also working towards a non-trivial example application called _Photosphere_. You can see how it will eventually look in figure 1.5. A live demo is available here: https://photosphere-100k.codecapers.com.au/
 
-![Figure 1.5: What the Photosphere frontend will look like later in the book](/assets/images/chapter-1/1_5-photosphere-example-app.png "Figure 1.5: What the Photosphere frontend will look like later in the book")
+![Figure 1.5: How Photosphere eventually looks](/assets/images/chapter-1/1-5-photosphere-later.jpg "Figure 1.5: How Photosphere eventually looks")
 
 #### Figure 1.5: What the Photosphere frontend will look like later in the book
 
