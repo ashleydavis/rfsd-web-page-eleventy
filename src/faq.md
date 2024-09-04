@@ -108,7 +108,7 @@ This gives you a chance to buy the book at a discount, support the author and be
 
 ## How much is early access?
 
-Early access is set set at the discounted price of $27 AUD (aprrox $18 USD). That's a massive discount off the final price for getting onboard early in the book's development.
+Early access is currently set at the discounted price of $27 AUD (aprrox $18 USD). The discount reflects that there are still some revisions to be made.
 
 ## How much will the completed book be?
 
@@ -118,7 +118,7 @@ The retail price for ebooks of this nature is around $30 USD.
 
 You get:
 - A discount to say thank you for being an earlier supporter.
-- The chapters currently released (e-formats: pdf and epub).
+- The chapters currently released (e-formats: pdf and epub). <strong>NOTE:</strong> All chapters are now released, pending final revision.
 - Review drafts for new chapters in Google Docs.
 - New chapters as they are released (ebook format).
 - To work with the author, give feedback and influence the direction of the book.
@@ -128,19 +128,19 @@ You get:
 
 Yes, you will get new chapters as they are released and the entire ebook when it is finished.
 
+<strong>NOTE:</strong> All chapters are now released, pending final revision.
+
 ## How many chapters will there be?
 
-It's hard to say exactly... but I'm aiming at 9 chapters. Although the end result might be 8 chapters or it might be 10.
+There are 9 chapters now released.
 
 ## How often will new chapters be released?
 
-New chapters will be released every 1-3 months. I'm working on this book in my spare time alongside multiple other projects. 
-
-Sometimes new chapters will come out quickly, othertimes not as quickly.
+All 9 chapters are now released.
 
 ## When will the book be completed?
 
-The book will be completed in 2024. It's difficult to say exactly, because it depends on the other commitments and obligations I have at any point in time.
+The book should be completed in 2024, all chapters are now released so it just depends on how many revisions are needed.
 
 ## What formats are supported for the ebook?
 
