@@ -68,7 +68,7 @@ Generally, our goals are these:
 * Increase the value of the code we write
 * Improve our development cadence: the rate at which we produce _working_ and _valuable_ code.
 
-This book is accompanied by many working code examples for you to follow along with and a complete non-trivial example application called _Photosphere_ (more about that soon).
+This book is accompanied by many working code examples for you to follow along with and a complete non-trivial example application called _Photosphere_ (scroll down to figure 1.5 to see how it will eventually look).
 
 This doesn’t work without you trying it for yourself. Only by following along with the coding (starting in Chapter 2) can you really experience it. Then you must apply what you learn to your own development process. Take what works for you, adapt what you can and discard the rest.  That’s a winning system that leads you to being an experienced software developer.
 
@@ -153,7 +153,7 @@ We should prioritize our work based on its value. This helps to ensure that we a
 
 But it’s not just the value of the code we need to consider, we must also balance the value of the code against the cost to build it.
 
-We should prioritize our work not just by how much it is worth, but also by how much we _estimate_ it will cost to build. So code that is slightly valuable and takes a day to deliver can be a higher priority than code that is extremely valuable and takes a month to deliver. Estimation is an artform unto itself that we’ll deal with later.
+We should prioritize our work not just by how much it is worth, but also by how much we _estimate_ it will cost to build. So code that is slightly valuable and takes a day to deliver can be a higher priority than code that is extremely valuable and takes a month to deliver. 
 
 ![The trade off between value and cost](/assets/images/chapter-1/1_1-balance-value.png "Figure 1.1:  The trade off between value and cost")
 #### Figure 1.1:  The trade off between value and cost
@@ -169,26 +169,20 @@ Software developers are masters of wasting time. Of course, we don’t do it on 
 
 You have probably experienced some of these yourself:
 
-
-
 * We automate things that don’t need to be automated;
 * We adopt tools and processes that slow us down;
 * We regularly create bugs that take a lot of time to find and fix;
 * We waste time on code and features that ultimately will be used infrequently and sometimes not at all;
 * And finally; we often burn time trying to get that last ounce of unnecessary perfection from our code.
 
-To adopt the rapid developer mindset, we must start with some honesty.  Before we can reduce or eliminate the things that slow us down, we need to recognize and identify them. Then train yourself to be wary of any task that consumes time, but is not necessary.
+To adopt the rapid developer mindset, we must start with some honesty.  Before we can reduce or eliminate the things that slow us down, we need to recognize and identify them. We should train ourselves to be wary of any task that consumes time, but is not necessary.
 
 Removing wasted time from our development process is fundamental to our performance as a developer.
 
 
 # 1.8 A philosophy for rapid development
 
-To create a development process for rapid development, we first need a guiding philosophy.
-
-Here is a philosophy for rapid development that we’ll embrace though this book:
-
-
+To create a development process for rapid development, we first need a guiding philosophy. Here is the philosophy that we’ll embrace in this book:
 
 * Nothing gets created all at once
 * Embed thinking in your process
@@ -201,7 +195,7 @@ Here is a philosophy for rapid development that we’ll embrace though this book
 
 Did you ever have the experience where you were coding for hours (or longer) and then when it came to testing your code you found that it just doesn’t work.
 
-Or even worse: it did work (kinda), except it had a bunch of hidden bugs that were then, rather embarrassingly, found by your users.
+Or even worse: it did (kind of) work, except it had a bunch of hidden bugs that were then, rather embarrassingly, found by your users.
 
 Coding for a long time before testing is a terrible idea. The reality is that software doesn’t get created like that. A simple truth of software development is that _nothing gets created all at once_. Successful development is usually done through a series of increments, assembling the product piece-by-piece through an iterative and evolutionary process.
 
@@ -213,12 +207,11 @@ By iterations I mean that we take a big complex task (like building a software p
 
 Iterations help us to set a rapid pace. They are the beating drum that keeps us rolling forward. It’s how we make incremental progress toward a larger goal.
 
-By the way, the iterations I’m talking about here could be personal work iterations or they could be team-based iterations, aka Sprints. In this book we are mostly talking about coding at the individual level, but most of this also applies at the team level. The important point is that any big task should be tackled sequentially through a series of iterations.
+By the way, the iterations I’m talking about here could be personal work iterations or they could be team-based iterations, aka Sprints. In this book we are mostly talking about coding at the individual level, but most of this also applies at the team level. The important point is that any big task should be tackled through a series of iterations.
 
 ![Iterations are crucial to software development](/assets/images/chapter-1/1_2-iterations.png "Figure 1.2:  Iterations are crucial to software development")
 
 #### Figure 1.2:  Iterations are crucial to software development
-
 >##### HOW IT HELPS
 >###### Breaking up complex work into small pieces allows regular incremental progress towards completion.
 
@@ -242,7 +235,6 @@ We don’t always want or need to be moving at a breakneck speed. It’s importa
 >###### Pomodoro is the Italian word for tomato and the Pomodoro Technique is named after the ubiquitous tomato shaped kitchen timer.
 
 ![Figure 1.3: The Pomodoro technique provides spaces for thinking and rest](/assets/images/chapter-1/1_3-pomodoros.png "Figure 1.3: The Pomodoro technique provides spaces for thinking and rest")
-
 #### Figure 1.3: The Pomodoro technique provides spaces for thinking and rest
 
 Having thinking and rest embedded in our process gives us the best chance of making the best decisions whilst maintaining rapid bursts of coding activity.
@@ -257,7 +249,7 @@ Frequent re-evaluation supported by iterations allows us to be more dynamic and 
 
 >##### HOW IT HELPS
 >###### Thinking while working keeps you heading in the right direction.
->###### This avoids wasting time by moving in the wrong direction.
+>###### This helps avoid wasted time spent moving in the wrong direction.
 
 
 
@@ -278,20 +270,19 @@ This is so important and so fundamental for me, that I sometimes think everyone 
 >###### Don’t tolerate broken code.
 
 
-Figure 1.4 shows efficient development in action. While working on new or updated features we take our code through a series of changes. The key milestone at each point is that we have working code. Development is taking code through a succession of changes repeatedly going from working state to working state.
+Figure 1.4 shows efficient development in action. While working on new or updated features we take our code through a series of changes. The key milestone at each point is that we have working code. Development is taking our code through a succession of changes repeatedly going from working state to working state.
 
 We do not tolerate broken code, whenever it is detected, we fix it and immediately return our code to a working state.
 
 ![The process of development is taking your code through a series of changes from working state to working state](/assets/images/chapter-1/1_4-working-state-to-working-state.png "Figure 1.4:  The process of development is taking your code through a series of changes from working state to working state")
-
 #### Figure 1.4:  The process of development is taking your code through a series of changes from working state to working state
 
-You have to understand that the natural state of code is actually a state of being broken.  It’s almost impossible for anyone to write correct code without testing it. That’s because there’s so many more ways for code to be in a broken state than there are for it to accidentally be in a working state. We must cause code to be in a working state on purpose. In fact, it takes continuous effort and discipline to maintain code in a working state.
+You have to understand that the natural state of code is actually a state of being broken.  It’s almost impossible for anyone to write correct code without testing it. That’s because there’s so many more ways for code to be in a broken state than there are for it to accidentally be in a working state. We must cause code to be in a working state on purpose. In fact, it takes continuous effort and discipline to maintain our code in a working state.
 
 
 >######  The natural state of code is to be broken.
 
-That’s not to say that code breaks by itself. If code works and you don’t touch it, then it won’t just break by itself. It’s only when adding new code or editing existing code that we risk breaking it. It also doesn’t mean that code that seems to work now won’t be found to be broken in the future. Any code can have latent issues waiting to be discovered.
+That’s not to say that code breaks by itself. If code works and you don’t touch it, then it isn't just going to break by itself. It’s only when adding new code or editing existing code that we risk breaking it. It also doesn’t mean that code that seems to work now won’t be found to be broken in the future. Any code can have latent issues waiting to be discovered.
 
 One key to creating working code is getting _fast_ _feedback_. The faster we can go from making a code change, however small, to seeing it work (or not work) the more quickly we can develop working code. Through this book, especially in chapters 2, 3 and 4, we’ll create a development pipeline with almost immediate feedback, we’ll also cover many practical ways to avoid broken code.
 
@@ -303,7 +294,7 @@ One key to creating working code is getting _fast_ _feedback_. The faster we can
 
 ## 1.8.4 Manage complexity, avoid complication
 
-Have you ever felt overwhelmed by the complexity of your codebase? Or maybe that it has grown complicated out of control. Did you know that there is a difference between complexity and complication?
+Have you ever felt overwhelmed by the complexity of your codebase? Or maybe that it has grown so complicated that it's out of control. Did you know that there is a difference between complexity and complication?
 
 The inescapable destiny of modern software development is complexity.
 
@@ -316,8 +307,6 @@ Our products have an increasing number of moving parts with exponentially growin
 
 
 Fortunately, we have many ways to tackle complexity while coding, including:
-
-
 
 * Creating abstractions;
 * Componentizing our code;
@@ -335,11 +324,11 @@ A truth that can be difficult to see is that we _can_ create complex products (p
 
 There are many benefits to writing simple code. To start, it is easier to understand. This is great when other people (or maybe your future self) have to work with your code. But the most substantial benefit of simple code is that simple code is easy to test, and code that is easy to test is easier to _keep working_.
 
-One way that code gets complicated is through _optimization_. So don’t be too quick to optimize your code. Personally, I aim for good performance code, the best that I can achieve quickly anyway, but only when it doesn’t sacrifice simplicity. In this book (not sure which chapter yet) we’ll talk about some rules for optimization to help prevent you from optimizing code before you need it. There’s a good reason Donald Knuth said that _premature optimization is the root of all evil_.
+One way that code gets complicated is through _optimization_. So don’t be too quick to optimize your code. Personally, I aim for good performance code, the best that I can achieve quickly anyway, but only when it doesn’t sacrifice simplicity. There’s a good reason Donald Knuth said that _premature optimization is the root of all evil_. Unecessary optimizations, those that can't be justified or measured, waste our time and complicate our code for no good reason.
 
 Another way that code gets complicated is by _over engineering_, also known as _future proofing_ your code. Experienced developers recognize when they are doing this, because so often in the past they have overly-complicated their code making it flexible enough to handle situations they later realized would never happen.
 
-It’s very liberating to understand that you should be coding for _now_ and not so much for _later_, but like anything in software development it’s a balancing act that relies on your judgment and experience (and sometimes a bit of luck, because you won’t always get it right!).
+It’s very liberating to understand that you should be coding for _now_ and not so much for _later_, but like anything in software development it’s a balancing act that relies on our judgment and our experience (and sometimes a bit of luck, because we won’t always get it right!).
 
 
 >###### The natural state of code is to be overly complicated.
@@ -351,10 +340,8 @@ Throughout this book we’ll talk about ways to actively manage complexity. We�
 
 
 >##### HOW IT HELPS
->###### Avoid time sunk on complex and complicated code. Complexity can be managed. 
->###### Complication should be avoided.
-
-
+>###### Avoid time sunk on complex and complicated code. 
+>###### Complexity can be managed. Complications should be avoided.
 
 ## 1.8.5 Know when to cut corners
 
@@ -366,7 +353,7 @@ I’m talking about things like this:
 
 * Does your code really need to be perfect? (Who even gets to decide what perfect means?) _Ok and useful_ is preferable to _almost perfect and not yet published_.
 * Do you need automated testing? Often startups can’t afford this level of investment in their code. (We’ll talk about the tradeoffs of automated testing in Chapter 5).
-* Can you circumvent your company's usual traditions, process and conventions to demonstrate a groundbreaking new feature quickly? (Possibly in a _testbed_ application, which we’ll also see in Chapter 5).
+* Can you circumvent your company's usual traditions, process and conventions to demonstrate a groundbreaking new feature quickly? (Possibly in a _testbed_ application, which we’ll see in Chapter 4).
 
 >###### Perfection is the enemy of productivity.
 
@@ -439,7 +426,7 @@ You can follow along with the coding and together we’ll build a fullstack appl
 
 #### Figure 1.5: What the Photosphere frontend will look like later in the book
 
-Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book, we’ll have desktop and mobile applications that can automatically find photos on our devices and upload them for us.
+Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book, we’ll exploring building desktop and mobile applications from a shared codebase.
 
 Through building Photosphere we’ll learn the techniques, habits and attitude we need to create a fast pace of development.
 
@@ -447,7 +434,7 @@ Through building Photosphere we’ll learn the techniques, habits and attitude w
 
 Chapter 1 has laid the theoretical groundwork for rapid development. In the coming chapters we’ll implement our philosophy, create our development process and actually build the Photosphere application.
 
-In chapters 2 and 3 we create a simple monolithic version of Photosphere as shown in figure 1.6. We’ll use this as a vehicle through which to explain foundations of good development principles and process.
+In chapters 2 and 3 we create a simple monolithic version of Photosphere as shown in figure 1.6. We’ll use this as a vehicle through which to explain the foundations of an effective development process.
 
 ![Figure 1.6:  The Photosphere example application: the simple monolithic version](/assets/images/chapter-1/1-6-photosphere-monolithic.png "Figure 1.6:  The Photosphere example application: the simple monolithic version")
 
@@ -455,15 +442,15 @@ In chapters 2 and 3 we create a simple monolithic version of Photosphere as show
 
 In chapter 4 we'll explore the planning and prototyping that led to the development of Photosphere.
 
-In chapter 5 we'll talk about testing and work through the test driven development (TDD) process that created Photosphere's photo gallery layout algorithm.
+In chapter 5 we'll talk about testing and look at the test driven development (TDD) that created Photosphere's gallery layout algorithm.
 
-In chapter 6 we'll talk about how to choose the right solutions to problems through the development process. W3e'll also deploy Photosphere to production..
+In chapter 6 we'll talk about how to choose the right solutions to problems through the development process. 
 
 In chapter 7 we'll learn how to be more effective at debugging and problem solving.
 
-In chapter 8 we’ll take our first steps beyond fullstack and extend Photosphere with a desktop application implemented with Electron and a mobile application implemented with Ionic. All frontends will share the same backend as illustrated in figure 1.7.
+In chapter 8 we’ll take our first steps beyond fullstack and extend Photosphere with a desktop application implemented with Electron and a mobile application implemented with Capacitor. All frontends will share the same backend as illustrated in figure 1.7.
 
-In Chapter 9 we'll tackle software design and architecture. Finishing up with some strategies for your ongoing learning and continuous growth as a developer.
+In Chapter 9 we'll wind up with a review, what an effective process looks like and how to scale yourself and your team.
 
 ![Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](/assets/images/chapter-1/1-7-photosphere-with-multiple-frontends.png "Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
 
