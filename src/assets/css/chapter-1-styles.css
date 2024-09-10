@@ -1,23 +1,19 @@
 body {
-    color: #222;
-    font-family: Crimson, Georgia, serif;
+    background-color: rgb(31, 32, 35);
+    color: rgb(174, 178, 183);
+    font-family: ui-sans-serif,system-ui,sans-serif;
     line-height: 24px;
     font-size: 16px;
     font-style: normal;
-    background-color: #E6E2DC;
 }
 
 .content {
-    background-color: white;
-    border-top: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
+    background-color: rgb(31, 32, 35);
     /* Code caption */
     /* Code */
 }
 
 .content p {
-    margin-top: 16px;
     margin-bottom: 16px;
 }
 
@@ -35,8 +31,7 @@ body {
 }
 
 .content h1:first-of-type {
-    color: #216BFF;
-    text-shadow: 0.4px 0.4px #0A2E9C;
+    color: white;
     padding: 0;
     font-size: 44px;
 }
@@ -45,13 +40,9 @@ body {
     font-weight: normal;
     padding-top: 20px;
     padding-bottom: 5px;
-}
-
-.content h2:first-of-type {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font: italic 24px/36px "Crimson", Georgia, serif;
-    color: #5985a6;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
 }
 
 .content h3 {
@@ -65,7 +56,7 @@ body {
 .content blockquote {
     margin: 5px;
     padding: 20px;
-    background-color: #e8e8e8;
+    background-color: rgb(31, 32, 35);
 }
 
 .content h5 {
@@ -189,6 +180,7 @@ body {
 
 figure {
     cursor: zoom-in;
+    background-color: white;
 }
 
 figure.zoomed {
@@ -199,13 +191,10 @@ figure.zoomed {
     top: 0;
     bottom: 0;
     z-index: 10;
-    background-color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 figure.zoomed img {
-    background-color: white;
     max-height: 90vh;
 }
