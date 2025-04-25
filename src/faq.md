@@ -10,13 +10,7 @@ Please email your questions to [ashley@codecapers.com.au](mailto:ashley@codecape
 
 ## How do I buy the book?
 
-You can join the [early access program for Rapid Fullstack Development through Gumroad](https://codecapers.gumroad.com/l/rapid-fullstack-development).
-
-## Is there another way to buy the book?
-
-Yes
-
-Use PayPal to send $27 AUD (approx $18 USD) or more to ashley@codecapers.com.au, then I'll email you the book.
+You can join the [early access program for The Feedback-Driven Developer](https://www.manning.com/books/the-feedback-driven-developer).
 
 ## What will I learn?
 
