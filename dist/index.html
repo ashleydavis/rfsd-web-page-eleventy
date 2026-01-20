@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Rapid Fullstack Development</title>
+    <meta name="description" content="A book by Ashley Davis: Learn to be an efficient and effective developer across the stack.">
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+
+    <meta property="og:title" content="Rapid Fullstack Development" />
+    <meta property="og:description" content="A book by Ashley Davis: Learn to be an efficient and effective developer across the stack." />
+    <meta property="og:url" content="https://rapidfullstackdevelopment.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://rapidfullstackdevelopment.com/preview.jpg" />
+    <meta property="og:image:url" content="https://rapidfullstackdevelopment.com/preview.jpg" />
+    <meta property="og:image:secure" content="https://rapidfullstackdevelopment.com/preview.jpg" /> 
+    <meta property="og:image:type" content="image/jpeg" /> 
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@codecapers" />
+    <meta name="twitter:title" content="Rapid Fullstack Development" />
+    <meta name="twitter:description" content="A book by Ashley Davis: Learn to be an efficient and effective developer across the stack." />
+    <meta name="twitter:image" content="https://rapidfullstackdevelopment.com/preview.jpg" />
+
+    <link rel="shortcut icon" href="/assets/images/favicomatic/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/images/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/images/favicomatic//assets/images/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/images/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/images/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/assets/images/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/assets/images/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/assets/images/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/assets/images/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/assets/images/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/assets/images/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/assets/images/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/assets/images/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/assets/images/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/assets/images/favicomatic/mstile-310x310.png" />
+
+    <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/typeset.min.css" />
+    <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/ashs-test-site-2.webflow.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/tailwind.css" />
+
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCP3RM6ZN8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MCP3RM6ZN8');
+    </script>    
+    
+</head>
+<body>
+    <div class="announcement-banner bg-gray-800 text-white p-4 text-center text-lg">
+        <strong>Announcement:</strong> Rapid Fullstack Development has been renamed as The Feedback-Driven Developer - new content will be posted soon.
+    </div>
+
+    <div class="page">
+        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+            role="banner" class="navbar-logo-left-2 w-nav mt-4">
+            <div class="navbarcontainer-2 w-container">
+                <div class="navbar-content-2">
+                    <div class="navbar-brand-2">
+                        <a href="/">
+                            <img src="/assets/images/landing/7239862_business_marketing_startup_rocket_laptop_icon_48px.png"
+                                loading="lazy" width="48" height="48" alt="Rapid Fullstack Development logo"
+                                class="logo-2" />
+                        </a>
+                    </div>
+                    <nav role="navigation" class="navbar-menu-2 w-nav-menu">
+                        <a href="/outline" class="navbar-link-2 w-nav-link">
+                            <div class="text-14">Book outline</div>
+                        </a>
+                        <a href="/chapter-1" class="navbar-link-3 w-nav-link">
+                            <div class="text-14">Read chapter 1</div>
+                        </a>
+                        <a href="https://www.manning.com/books/the-feedback-driven-developer" class="navbar-link-3 w-nav-link">
+                            <div class="text-14">Get the book</div>
+                        </a>
+                    </nav>
+                </div>
+                <div class="w-nav-button">
+                    <div class="w-icon-nav-menu"></div>
+                </div>
+            </div>
+        </div>
+
+        
+
+<div class="hero-heading-left-2">
+    <div class="container-5">
+        <div class="column-7">
+            <div class="column-7">
+                <h1 class="title">Rapid Fullstack Development</h1>
+                <p class="text-10">
+                    A new book by <a href="#about">Ashley Davis</a>.
+                </p>
+                <p class="text-10">
+                    Are you itching to be a <strong>faster developer</strong> across the stack?
+                </p>
+                <p class="text-10">
+                    Writing code quickly is <strong>not enough</strong>.
+                </p>
+                <p class="text-10">
+                    Your code also has to work and it has to be useful.
+                </p>
+            </div>
+            <div class="actions-4">
+                <a href="https://www.manning.com/books/the-feedback-driven-developer" class="button-6 subscribe-btn">
+                    <div class="text-15">Get the book</div>
+                </a>
+            </div>
+        </div>
+        <div class="column-8">
+            <div class="image-wrapper-3 border border-gray-300 border-solid rounded-sm">
+                <img src="assets/images/cover.jpg" loading="lazy" alt="" class="image-2" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero-heading-right">
+    <div class="container-5">
+        <div class="column-8">
+            <div class="image-wrapper-2">
+                <img src="/assets/images/landing/fullstack.png" loading="lazy" alt="" class="image-2" />
+            </div>
+        </div>
+        <div class="column-7">
+            <div class="column-7">
+                <h2 class="sub-title">
+                    No limits
+                </h2>
+
+                <div class="text-10a">
+                    Cover the entire stack with JavaScript and TypeScript
+                </div>
+
+                <div class="text-10a">
+                    Frontend, backend, mobile and desktop.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero-heading-left-2">
+    <div class="container-5">
+        <div class="column-7">
+            <div class="column-7">
+                <h2 class="sub-title">
+                    Build something big
+                </h2>
+
+                <div class="text-10a">
+                    Create a complex application through simple steps.
+                </div>
+
+                <div class="text-10a">
+                    Bake testing into the heart of your process.
+                </div>
+            </div>
+        </div>
+        <div class="column-8">
+            <div class="image-wrapper-2">
+                <img src="/assets/images/landing/coding-cycle-unfolded.png" loading="lazy" alt=""
+                    class="image-2" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero-heading-right">
+    <div class="container-5">
+        <div class="column-8">
+            <div class="image-wrapper-2">
+                <img src="/assets/images/landing/coding-cycle.png" loading="lazy" alt="" class="image-2" />
+            </div>
+        </div>
+        <div class="column-7">
+            <div class="column-7">
+                <h2 class="sub-title">
+                    Tools and techniques
+                </h2>
+
+                <div class="text-10a">
+                    Use the best tools the ecosystem can offer
+                    to create a fluid and fast paced development process.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero-heading-left-2">
+    <div class="container-5">
+        <div class="column-7">
+            <div class="column-7">
+                <h1 class="sub-title">The example application</h1>
+                <p class="text-10">
+                    Follow along with the coding and we’ll build a fullstack application while applying the philosophy of rapid development. 
+                </p>
+                <p class="text-10">
+                    There’s plenty of simple examples, but we are also working towards a non-trivial example application called <em>Photosphere</em>. 
+                </p>
+            </div>
+            <div class="actions-4">
+                <a href="https://photosphere-100k.codecapers.com.au/" target="_blank" class="button-6 subscribe-btn">
+                    <div class="text-15">See the live demo</div>
+                </a>
+            </div>
+        </div>
+        <div class="column-8">
+            <div class="image-wrapper-3 border-2 border-gray-300 border-solid">
+                <img src="assets/images/chapter-1/1-5-photosphere-later.jpg" loading="lazy" alt="" class="image-2" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="testimonial-column-light">
+    <h1 class="title">Testimonials</h1>
+    <div class="columns">
+        <div class="column-7">
+            <div class="content rounded">
+                <div class="quote">
+                    <div class="text-14">Ashley's done a lot of illustrations and diagrams to help concepts
+                        that would make a massive difference for a beginner like me who relies on 
+                        visual breakdowns to grasp new concepts. I would highly recommend this.
+                    </div>
+                    <div class="author">
+                        <img src="/assets/images/testimonials/furqan.jfif"
+                            loading="lazy" width="60" height="60" alt="" class="image-3" />
+                        <div class="info">
+                            <div class="text-14a font-bold">Furqan ur Rehman</div>
+                            <div class="text-14aa">Digital Marketer | Tech Enthusiast, Pera Wallet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-7">
+            <div class="content rounded">
+                <div class="quote">
+                    <div class="text-14">As a developer with over 10 years of experience in the industry, it
+                        was a satisfying experience for me to watch the complex, yet reliable, and working
+                        software get built by continuously adding small simple steps.
+                    </div>
+                    <div class="author">
+                        <img src="/assets/images/testimonials/shant.jfif"
+                            loading="lazy" width="60" height="60" alt="" class="image-3" />
+                        <div class="info">
+                            <div class="text-14a font-bold">Shant Dashjian</div>
+                            <div class="text-14aa">Senior Software Engineer, Scrimba</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-7">
+            <div class="content rounded">
+                <div class="quote">
+                    <div class="text-14">Rapid FullStack Development is much more than just a book—it's a
+                        masterclass. It's akin to having a rare and exceptional mentor, a consummate
+                        professional with astounding technical expertise guiding me through every phase.
+                    </div>
+                    <div class="author">
+                        <img src="/assets/images/testimonials/parth.jpg"
+                            loading="lazy" width="60" height="60" alt="" class="image-3" />
+                        <div class="info">
+                            <div class="text-14a font-bold">Parth Sigdel</div>
+                            <div class="text-14aa">Full Stack Developer, Andisor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="content-2">
+        <div class="title">Recent News</div>
+        <ul>
+            <li class="news-item">
+                2025/01/08: Manning have picked up the contract for Rapid Fullstack Development and in 2025 it is being reborn under the new name: The Feedback-Driven Developer. The Manning early access program (MEAP) will start soon!
+            </li>
+
+            <li class="news-item">
+                2024/09/05: Version 0.9 of the early access edition of Rapid Fullstack Development is released,
+                including the final chapter 9 and many revisions and improvements.
+            </li>
+            <li class="news-item">
+                A new and revised version of my talk Rapid Fullstack Development was live streamed for
+                Manning and is
+                <a target="_blank" href="https://youtu.be/Xk54U8TM0pc">
+                    now published on YouTube.
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="about" class="hero-heading-right">
+    <div class="container-5">
+        <div class="column-8">
+            <div class="image-wrapper-3">
+                <img src="/assets/images/pic.jpg" loading="lazy" alt="Picture of the author"
+                    class="image-profile" />
+            </div>
+        </div>
+        <div class="column-7">
+            <div class="column-7">
+                <div class="title">About the author</div>
+                <p class="text-10a">
+                    Ashley Davis is a software craftsman and author with over 25 years of experience in
+                    development, from coding to managing teams to founding companies.
+                    He has worked for a range of companies, from the tiniest startups to the largest
+                    internationals.
+                    Along the way, he has contributed back to the community through his writing and open
+                    source coding.
+                </p>
+
+                <p>
+                    For news follow <a target="_blank" href="https://twitter.com/codecapers">@codecapers</a>
+                    on Twitter.
+                </p>
+
+                <p>
+                    For more on Ashley’s background, see his <a target="_blank"
+                        href="https://www.codecapers.com.au/about">web page</a> or <a target="_blank"
+                        href="https://www.linkedin.com/in/ashleydavis75">Linkedin profile</a>.
+                </p>
+
+                <p>
+                    Email on <a href="mailto:ashley@codecapers.com.au">ashley@codecapers.com.au</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="subscribe" class="hero-heading-right">
+            <div class="container-5">
+                <div class="column-8">
+                    <div class="text-10a">
+                        <h2 class="title">
+                            This book is in development
+                        </h2>
+
+                        <p class="pt-10">
+                            I'm currently writing this book!
+                        </p>
+
+                        <p class="">
+                            Please join me on this new adventure exploring rapid development techniques applied
+                            to fullstack coding.
+                        </p>
+
+                        <p class="">
+                            Join the early access program for a discount, get chapters as they are written and
+                            work with the author to set the direction of the book.
+                        </p>
+
+                        <p class="">
+                            Or register your email to be updated as the book is written.
+                        </p>
+
+                        <p class="text-sm">
+                            Rapid Fullstack Development is self-published by the author.
+                            Your purchase directly funds the development of this book, future books and the
+                            Photosphere application.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column-7a">
+                    <div class="pt-8 sm:pt-0">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://rapidfullstackdevelopment.us20.list-manage.com/subscribe/post?u=c497e6cc81dc74274015d11ee&amp;id=e8c6ea4294"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <div class="optionalParent">
+                                        <div class="clear foot">
+                                            <a target="_blank"
+                                                href="https://www.manning.com/books/the-feedback-driven-developer"
+                                                class="get-early-access button">
+                                                Get early access
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+                                    <div class="heading mc-field-group mt-20 mb-6">
+                                        <label for="mce-EMAIL">Email Address
+                                            <!-- <span class="asterisk">*</span> -->
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email"
+                                            id="mce-EMAIL">
+                                    </div>
+                                    <div id="mce-responses" class="clear foot">
+                                        <div class="response" id="mce-error-response" style="display:none">
+                                        </div>
+                                        <div class="response" id="mce-success-response" style="display:none">
+                                        </div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                            type="text" name="b_c497e6cc81dc74274015d11ee_e8c6ea4294"
+                                            tabindex="-1" value=""></div>
+                                    <div class="optionalParent">
+                                        <div class="clear foot">
+                                            <input type="submit" value="Subscribe for updates" name="subscribe"
+                                                id="mc-embedded-subscribe" class="button">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <!-- <div class="columns-2">
+            <div class="column-9">
+                <div class="logo-wrapper">
+                    <img 
+                        src="assets/images/landing/7239862_business_marketing_startup_rocket_laptop_icon_48px.png" 
+                        loading="lazy" 
+                        width="48" 
+                        height="48" 
+                        alt="Rapid Fullstack Development logo"  
+                        class="logo-2"
+                        >
+                    </div>
+            </div>
+            <div class="small-columns">
+                <div class="column-7">
+                    <div class="content-3">
+                        <div class="text-21">COMPANY</div>
+                        <div class="footer-links">
+                            <div class="link">How it works</div>
+                            <div class="link">Pricing</div>
+                            <div class="link">Demo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-7">
+                    <div class="content-4">
+                        <div class="text-21">RESOURCES</div>
+                        <div class="footer-links">
+                            <div class="link">Blog post name goes here</div>
+                            <div class="link">Blog post name goes here</div>
+                            <div class="link">Blog post name goes here</div>
+                            <div class="link">See all resources</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-7">
+                    <div class="content-4">
+                        <div class="text-21">ABOUT</div>
+                        <div class="footer-links">
+                            <div class="link">Terms &amp; Conditions</div>
+                            <div class="link">Privacy Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+            <div class="copyright">
+                <div class="text-22">Copyright © 2024 Ashley Davis</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript"></script>
+    <script src="/assets/js/webflow.js" type="text/javascript"></script>
+
+</body>
+</html>
