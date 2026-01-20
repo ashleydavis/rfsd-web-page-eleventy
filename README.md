@@ -22,6 +22,14 @@ npm start
 npm run build
 ```
 
+## Deploy 
+
+```bash
+npm run build
+# Commit changes to dist
+git push
+``
+
 ## Rebuild css
 
 ```bash
