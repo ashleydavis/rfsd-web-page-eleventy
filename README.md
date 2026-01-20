@@ -26,7 +26,7 @@ npm run build
 
 ```bash
 npm run build
-# Commit changes to dist
+# Commit changes to docs
 git push
 ``
 
