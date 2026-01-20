@@ -155,7 +155,7 @@ But it’s not just the value of the code we need to consider, we must also bala
 
 We should prioritize our work not just by how much it is worth, but also by how much we _estimate_ it will cost to build. So code that is slightly valuable and takes a day to deliver can be a higher priority than code that is extremely valuable and takes a month to deliver. 
 
-![The trade off between value and cost](/assets/images/chapter-1/1_1-balance-value.png "Figure 1.1:  The trade off between value and cost")
+![The trade off between value and cost](assets/images/chapter-1/1_1-balance-value.png "Figure 1.1:  The trade off between value and cost")
 #### Figure 1.1:  The trade off between value and cost
 
 Development is a balancing act that requires not only thinking about how to code something, we must also understand the value of our code and how it fits into our team, our company and our product.
@@ -209,7 +209,7 @@ Iterations help us to set a rapid pace. They are the beating drum that keeps us 
 
 By the way, the iterations I’m talking about here could be personal work iterations or they could be team-based iterations, aka Sprints. In this book we are mostly talking about coding at the individual level, but most of this also applies at the team level. The important point is that any big task should be tackled through a series of iterations.
 
-![Iterations are crucial to software development](/assets/images/chapter-1/1_2-iterations.png "Figure 1.2:  Iterations are crucial to software development")
+![Iterations are crucial to software development](assets/images/chapter-1/1_2-iterations.png "Figure 1.2:  Iterations are crucial to software development")
 
 #### Figure 1.2:  Iterations are crucial to software development
 >##### HOW IT HELPS
@@ -234,7 +234,7 @@ We don’t always want or need to be moving at a breakneck speed. It’s importa
 
 >###### Pomodoro is the Italian word for tomato and the Pomodoro Technique is named after the ubiquitous tomato shaped kitchen timer.
 
-![Figure 1.3: The Pomodoro technique provides spaces for thinking and rest](/assets/images/chapter-1/1_3-pomodoros.png "Figure 1.3: The Pomodoro technique provides spaces for thinking and rest")
+![Figure 1.3: The Pomodoro technique provides spaces for thinking and rest](assets/images/chapter-1/1_3-pomodoros.png "Figure 1.3: The Pomodoro technique provides spaces for thinking and rest")
 #### Figure 1.3: The Pomodoro technique provides spaces for thinking and rest
 
 Having thinking and rest embedded in our process gives us the best chance of making the best decisions whilst maintaining rapid bursts of coding activity.
@@ -274,7 +274,7 @@ Figure 1.4 shows efficient development in action. While working on new or update
 
 We do not tolerate broken code, whenever it is detected, we fix it and immediately return our code to a working state.
 
-![The process of development is taking your code through a series of changes from working state to working state](/assets/images/chapter-1/1_4-working-state-to-working-state.png "Figure 1.4:  The process of development is taking your code through a series of changes from working state to working state")
+![The process of development is taking your code through a series of changes from working state to working state](assets/images/chapter-1/1_4-working-state-to-working-state.png "Figure 1.4:  The process of development is taking your code through a series of changes from working state to working state")
 #### Figure 1.4:  The process of development is taking your code through a series of changes from working state to working state
 
 You have to understand that the natural state of code is actually a state of being broken.  It’s almost impossible for anyone to write correct code without testing it. That’s because there’s so many more ways for code to be in a broken state than there are for it to accidentally be in a working state. We must cause code to be in a working state on purpose. In fact, it takes continuous effort and discipline to maintain our code in a working state.
@@ -422,7 +422,7 @@ While this first chapter has been theoretical, the rest of the book is mostly pr
 
 You can follow along with the coding and together we’ll build a fullstack application while applying the philosophy of rapid development. There’ll be plenty of simple examples, but we are also working towards a non-trivial example application called _Photosphere_. You can see how it will eventually look in figure 1.5. A live demo is available here: https://photosphere-100k.codecapers.com.au/
 
-![Figure 1.5: How Photosphere eventually looks](/assets/images/chapter-1/1-5-photosphere-later.jpg "Figure 1.5: How Photosphere eventually looks")
+![Figure 1.5: How Photosphere eventually looks](assets/images/chapter-1/1-5-photosphere-later.jpg "Figure 1.5: How Photosphere eventually looks")
 
 #### Figure 1.5: What the Photosphere frontend will look like later in the book
 
@@ -436,7 +436,7 @@ Chapter 1 has laid the theoretical groundwork for rapid development. In the comi
 
 In chapters 2 and 3 we create a simple monolithic version of Photosphere as shown in figure 1.6. We’ll use this as a vehicle through which to explain the foundations of an effective development process.
 
-![Figure 1.6:  The Photosphere example application: the simple monolithic version](/assets/images/chapter-1/1-6-photosphere-monolithic.png "Figure 1.6:  The Photosphere example application: the simple monolithic version")
+![Figure 1.6:  The Photosphere example application: the simple monolithic version](assets/images/chapter-1/1-6-photosphere-monolithic.png "Figure 1.6:  The Photosphere example application: the simple monolithic version")
 
 #### Figure 1.6:  The Photosphere example application: the simple monolithic version
 
@@ -452,7 +452,7 @@ In chapter 8 we’ll take our first steps beyond fullstack and extend Photospher
 
 In Chapter 9 we'll wind up with a review, what an effective process looks like and how to scale yourself and your team.
 
-![Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](/assets/images/chapter-1/1-7-photosphere-with-multiple-frontends.png "Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
+![Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](assets/images/chapter-1/1-7-photosphere-with-multiple-frontends.png "Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
 
 #### Figure 1.7:  The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends
 
