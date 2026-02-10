@@ -32,7 +32,7 @@ You can join the [early access program for The Feedback-Driven Developer](https:
 
 This book doesn't teach JavaScript or TypeScript. You need to know enough to get the gist of the code samples in the book, but don't worry, I've made an effort to keep the example code as simple as I can. If you are coming from another programming language you should have no trouble picking up JavaScript/TypeScript as you read this book.
 
-If you are also learning JavaScript/TypeScript as you read this book you'll probably be ok, provided you put in the work. [Chapter 1](https://rapidfullstackdevelopment.com/chapter-1) provides some resources for you to learn JavaScript.
+If you are also learning JavaScript/TypeScript as you read this book you'll probably be ok, provided you put in the work. [Chapter 1](../chapter-1/) provides some resources for you to learn JavaScript.
 
 Coming into this book you should know the basics of using the command line (the terminal) and a code editor of your choice (I recommend Visual Studio Code). 
 

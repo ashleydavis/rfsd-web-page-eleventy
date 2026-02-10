@@ -16,7 +16,7 @@ Learn the theory and philosophy of rapid development.
 
 What it is? Why do we need it? And, how it can help you be a faster developer.
 
-[Chapter 1 is free to read online](/chapter-1) 
+[Chapter 1 is free to read online](../chapter-1/) 
 
 # 2. From little things, big things grow
 
