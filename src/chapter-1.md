@@ -115,7 +115,7 @@ The first level is at the internal or personal level where we repeatedly complet
 
 The second level of feedback is at the external level, what you might think of as team-based feedback. This is where we submit our work for evaluation and review to our manager, colleagues (for peer-reviews) and ultimately to our customer who will use the product and features we create. The external level of feedback is necessary but it is much slower-paced. It can take hours, if not days, to get feedback this way. If you are relying on external feedback to improve your personal development process you will find that improvements will come very slowly if they come at all.
 
-![The two levels of feedback and where they fit with the personal work iteration](/assets/images/chapter-1/1-1-levels-of-feedback.png "Figure 1.1:  The two levels of feedback and where they fit with the personal work iteration")
+![The two levels of feedback and where they fit with the personal work iteration](../assets/images/chapter-1/1-1-levels-of-feedback.png "Figure 1.1:  The two levels of feedback and where they fit with the personal work iteration")
 
 An important point I’d like to make is that if you are waiting for external feedback (feedback from your colleagues, manager or customers) to know where to head next or to know how to improve, you will necessarily be moving at a slow pace due to the nature of this kind of feedback. 
 
@@ -141,7 +141,7 @@ We must look at our process with a critical eye. Our process should consist of t
 
 We aim to deliver working code at a fast pace in regular intervals, but we also need to make sure our process is sustainable. If we burn out, that’s a huge derailment of our productivity. We need a routine that includes periods of rest so that we can maintain a rapid pace indefinitely.
 
-![Minimizing the distance to getting feedback makes for a fast paced development cycle](/assets/images/chapter-1/1_2-minimize-distance-to-feedback.png "Figure 1.2:  Minimizing the distance to getting feedback makes for a fast paced development cycle")
+![Minimizing the distance to getting feedback makes for a fast paced development cycle](../assets/images/chapter-1/1_2-minimize-distance-to-feedback.png "Figure 1.2:  Minimizing the distance to getting feedback makes for a fast paced development cycle")
 
 ## 1.5.2 Balancing value vs cost
 
@@ -155,7 +155,7 @@ But it’s not just the value of the code we need to consider; we must also bala
 
 We should prioritize our work not just by how much it is worth, but also by how much we estimate it will cost to build. So code that is slightly valuable and takes a day to deliver can be a higher priority than code that is extremely valuable and takes a month to deliver. 
 
-![The trade off between value and cost](/assets/images/chapter-1/1_3-balance-value.png "Figure 1.3: The trade off between value and cost")
+![The trade off between value and cost](../assets/images/chapter-1/1_3-balance-value.png "Figure 1.3: The trade off between value and cost")
 
 Development is a balancing act that requires not only thinking about how to code something, but also understanding the value of our code and how it fits into our team, our company and our product. 
 
@@ -212,7 +212,7 @@ Iterations help us to set a rapid pace. They are the beating drum that keeps us 
 
 You may have heard of, or you may already practice agile development - that’s a common example of iteration based development. But I’m not just talking about team-based agile sprints. The iterations we are talking about in this book can be personal work iterations or they can be team-based iterations. But mostly we are talking about the process of development at the individual level, even though much of this also applies at the team level. The important point is that any big task should be broken down and tackled through a series of iterations - allowing many opportunities to seek feedback.
 
-![Iterations provide many opportunities to get feedback and reassess](/assets/images/chapter-1/1_4-iterations.png "Figure 1.4: Iterations provide many opportunities to get feedback and reassess")
+![Iterations provide many opportunities to get feedback and reassess](../assets/images/chapter-1/1_4-iterations.png "Figure 1.4: Iterations provide many opportunities to get feedback and reassess")
 
 **How it help ** Breaking up complex work into small pieces allows regular incremental progress towards completion and provides many opportunities for feedback.
 
@@ -230,7 +230,7 @@ You can build your process of iterations however you like and in a way that’s 
 
 If you suffer from very unstable requirements (as I have, working in the games industry, various startups and various companies that were intensely customer focused) where the value of any task or feature is uncertain and the cost of delivery is also uncertain, it can be useful to reduce the size of your personal iterations to give more opportunities for thinking, gathering feedback and reassessing the plan. For my own personal work iterations I like to use the Pomodoro Technique. As illustrated in Figure 1.4 it gives us a cycle of iterations that are each 25 minutes long and have short breaks between them. The start of each Pomodoro is a natural time to rethink what we are doing. Pomodoro is the Italian word for tomato and the Pomodoro Technique is named after the ubiquitous tomato shaped kitchen timer. If you dislike 25 minute iterations, change it to what makes you comfortable (say 50 minutes work, 10 minutes break). You should create a rhythm that works for you and tailor a system of personal work iterations to fit your own needs.
 
-![The Pomodoro technique provides spaces for thinking and rest](/assets/images/chapter-1/1_5-pomodoros.png "Figure 1.5: The Pomodoro technique provides spaces for thinking and rest")
+![The Pomodoro technique provides spaces for thinking and rest](../assets/images/chapter-1/1_5-pomodoros.png "Figure 1.5: The Pomodoro technique provides spaces for thinking and rest")
 
 
 Having thinking and rest embedded in our process gives us the best chance of making the best decisions whilst maintaining rapid bursts of coding activity. Regular breaks make our process sustainable, giving us the energy we need to make it through our working day.
@@ -275,7 +275,7 @@ Figure 1.5 shows efficient development in action. While working on new or update
 
 We do not tolerate broken code. Whenever it is detected - through continuous testing and feedback - we fix it and immediately return our code to a working state.
 
-![The process of development is taking your code through a series of changes from working state to working state](/assets/images/chapter-1/1_6-working-state-to-working-state.png "Figure 1.6: The process of development is taking your code through a series of changes from working state to working state")
+![The process of development is taking your code through a series of changes from working state to working state](../assets/images/chapter-1/1_6-working-state-to-working-state.png "Figure 1.6: The process of development is taking your code through a series of changes from working state to working state")
 
 Of course it’s not as simple as it sounds. Our code often comes out broken. In fact, I’d say that the natural state of code is actually a state of being broken. 
 
@@ -431,7 +431,7 @@ While this first chapter has been theoretical, the rest of the book is mostly pr
 
 You can follow along with the coding and together we’ll build a fullstack application while applying the philosophy of rapid development. There’ll be plenty of simple examples, but we are also working towards a non-trivial example application called Photosphere. 
 
-![How Photosphere eventually looks](/assets/images/chapter-1/1_7-photosphere-example-app.png "Figure 1.7: How Photosphere eventually looks")
+![How Photosphere eventually looks](../assets/images/chapter-1/1_7-photosphere-example-app.png "Figure 1.7: How Photosphere eventually looks")
 
 Photosphere is a photo gallery and backup tool. Initially we’ll be able to upload photos through a web portal and then browse them in the gallery. Toward the end of the book, we’ll explore building desktop and mobile applications from a shared codebase.
 
@@ -443,7 +443,7 @@ Chapter 1 has laid the theoretical groundwork for effective development through 
 
 In chapters 2 and 3 we create a simple monolithic version of Photosphere as shown in figure 1.7. We’ll use this as a vehicle through which to explain the foundations of an effective development process.
   
-![The Photosphere example application: the simple version](/assets/images/chapter-1/1_7-photosphere-example-app.png "Figure 1.8: The Photosphere example application: the simple version")
+![The Photosphere example application: the simple version](../assets/images/chapter-1/1_7-photosphere-example-app.png "Figure 1.8: The Photosphere example application: the simple version")
 
 In chapter 4 we'll explore the planning and prototyping that led to the development of Photosphere.
 
@@ -457,7 +457,7 @@ In chapter 8 we’ll take our first steps beyond fullstack and extend Photospher
 
 In Chapter 9 we'll wind up with a review, what an effective process looks like and how to scale yourself and your team.
 
-![The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](/assets/images/chapter-1/1_9-photosphere-example-app.png "Figure 1.9: The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
+![The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends](../assets/images/chapter-1/1_9-photosphere-example-app.png "Figure 1.9: The Photosphere example application: beyond fullstack - now supporting desktop and mobile frontends")
 
 # 1.12 Summary
 
